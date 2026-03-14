@@ -1,0 +1,12 @@
+criterion,passed
+h1_spearman_gain,True
+h1_monotonicity_reduction,True
+h1_recall,True
+h1_ece,True
+h3_fpr_drop,True
+h3_runtime,True
+h4_nondominated_gain,True
+h4_jaccard,True
+stress_boundary_pass,True
+stress_counterexample,True
+robustness_performance_tradeoff_gap_le_0_15,True

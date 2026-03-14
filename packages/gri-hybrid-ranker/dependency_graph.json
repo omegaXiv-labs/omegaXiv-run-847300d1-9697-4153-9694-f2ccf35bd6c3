@@ -1,0 +1,24 @@
+{
+  "root": "omegaxiv-gri-hybrid-ranker",
+  "nodes": [
+    {"name": "omegaxiv-gri-hybrid-ranker", "type": "package"},
+    {"name": "numpy", "spec": ">=1.26,<3", "type": "runtime"},
+    {"name": "pandas", "spec": ">=2.1,<3", "type": "runtime"},
+    {"name": "sympy", "spec": ">=1.12,<2", "type": "runtime"},
+    {"name": "python-dateutil", "spec": ">=2.8,<3", "type": "transitive"},
+    {"name": "pytz", "spec": ">=2024.1", "type": "transitive"},
+    {"name": "tzdata", "spec": ">=2024.1", "type": "transitive"},
+    {"name": "mpmath", "spec": ">=1.3,<2", "type": "transitive"},
+    {"name": "six", "spec": ">=1.16,<2", "type": "transitive"}
+  ],
+  "edges": [
+    {"from": "omegaxiv-gri-hybrid-ranker", "to": "numpy"},
+    {"from": "omegaxiv-gri-hybrid-ranker", "to": "pandas"},
+    {"from": "omegaxiv-gri-hybrid-ranker", "to": "sympy"},
+    {"from": "pandas", "to": "python-dateutil"},
+    {"from": "pandas", "to": "pytz"},
+    {"from": "pandas", "to": "tzdata"},
+    {"from": "sympy", "to": "mpmath"},
+    {"from": "python-dateutil", "to": "six"}
+  ]
+}

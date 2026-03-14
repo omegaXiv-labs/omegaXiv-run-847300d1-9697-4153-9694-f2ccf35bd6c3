@@ -1,0 +1,9 @@
+check_id,value,threshold,passed,evidence,notes
+h1_spearman_gain_ge_0p10,0.240379,>=0.10,True,metrics_summary.csv,
+h1_monotonicity_reduction_ge_0p30,0.685503,>=0.30,True,metrics_summary.csv,
+h3_fpr_drop_ge_0p25,0.453977,>=0.25,True,metrics_summary.csv,
+h4_nondominated_gain_ge_0p25,0.788005,>=0.25,True,metrics_summary.csv,
+stress_counterexample_failure_le_0p20,0.169563,<=0.20,True,metrics_summary.csv,
+stress_tradeoff_gap_le_0p15,0.118427,<=0.15,True,metrics_summary.csv,
+planned_tradeoff_criterion_covered_in_acceptance_table,0,==1,False,acceptance_checks.csv,expected explicit criterion for robustness_performance_tradeoff_gap <= 0.15
+confirmatory_tradeoff_gap_mean_descriptive,0.165401,descriptive_only,True,confirmatory_regime_analysis.csv,

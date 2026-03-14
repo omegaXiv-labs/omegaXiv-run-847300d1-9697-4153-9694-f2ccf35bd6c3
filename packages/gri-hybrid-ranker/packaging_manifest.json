@@ -1,0 +1,90 @@
+{
+  "handle": "gri-hybrid-ranker",
+  "version": "0.1.0",
+  "package_type": "library",
+  "distribution_name": "omegaxiv-gri-hybrid-ranker",
+  "import_name": "gri_hybrid_ranker",
+  "source_root": "packages/gri-hybrid-ranker/src/gri_hybrid_ranker",
+  "readme_path": "packages/gri-hybrid-ranker/README.md",
+  "requirements_path": "packages/gri-hybrid-ranker/requirements.txt",
+  "dependency_graph_path": "packages/gri-hybrid-ranker/dependency_graph.json",
+  "install_target": "file:///app/outputs/runs/91db9a32-aae3-44e1-8814-3f362dee8ced/workspace/packages/gri-hybrid-ranker/dist/omegaxiv_gri_hybrid_ranker-0.1.0-py3-none-any.whl",
+  "installation_test": {
+    "command": "python -m venv /tmp/ox-smoke-gri && /tmp/ox-smoke-gri/bin/pip install /app/outputs/runs/91db9a32-aae3-44e1-8814-3f362dee8ced/workspace/packages/gri-hybrid-ranker/dist/omegaxiv_gri_hybrid_ranker-0.1.0-py3-none-any.whl && /tmp/ox-smoke-gri/bin/python -c \"from gri_hybrid_ranker import GRIHybridRanker, ProgressReporter, summarize_metrics; print('SMOKE_OK')\"",
+    "passed": true
+  },
+  "built_artifacts": [
+    {
+      "kind": "wheel",
+      "path": "packages/gri-hybrid-ranker/dist/omegaxiv_gri_hybrid_ranker-0.1.0-py3-none-any.whl",
+      "sha256": "810adb4a0586a845b98c68d7dd3dbad42b2fd06e811ac6cbcf438c8ce2569b25",
+      "size_bytes": 10690
+    },
+    {
+      "kind": "archive",
+      "path": "packages/gri-hybrid-ranker/dist/gri-hybrid-ranker-0.1.0.tar.gz",
+      "sha256": "eec87e58da8162abbef5a377855b6a940f6c4008fe8a1ba97ccd226b9838ca83",
+      "size_bytes": 9478
+    }
+  ],
+  "install": {
+    "canonical": [
+      "pip install omegaxiv",
+      "ox install gri-hybrid-ranker==0.1.0"
+    ],
+    "dev_only": [
+      "pip install -e packages/gri-hybrid-ranker"
+    ]
+  },
+  "extraction_plan": {
+    "core_contributions": [
+      "Hybrid tri-state ranking simulation pipeline for low/norm/high glucose candidate scoring.",
+      "Acceptance-gated benchmark evaluation and confirmatory regime analysis.",
+      "Symbolic validity checks tied to theorem assumptions."
+    ],
+    "source_symbols": [
+      {
+        "source_path": "experiments/gri_hybrid_validation/src/gri_validation/core.py",
+        "source_symbol": "run_pipeline"
+      },
+      {
+        "source_path": "experiments/gri_hybrid_validation/src/gri_validation/core.py",
+        "source_symbol": "ProgressReporter"
+      },
+      {
+        "source_path": "experiments/gri_hybrid_validation/src/gri_validation/analysis.py",
+        "source_symbol": "summarize_metrics"
+      },
+      {
+        "source_path": "experiments/gri_hybrid_validation/src/gri_validation/analysis.py",
+        "source_symbol": "confirmatory_regime_analysis"
+      },
+      {
+        "source_path": "experiments/gri_hybrid_validation/src/gri_validation/sympy_checks.py",
+        "source_symbol": "run_sympy_validations"
+      }
+    ],
+    "api_mapping": [
+      {
+        "source_symbol": "run_pipeline",
+        "exported_symbol": "GRIHybridRanker.run"
+      },
+      {
+        "source_symbol": "ProgressReporter",
+        "exported_symbol": "ProgressReporter"
+      },
+      {
+        "source_symbol": "summarize_metrics",
+        "exported_symbol": "summarize_metrics"
+      },
+      {
+        "source_symbol": "confirmatory_regime_analysis",
+        "exported_symbol": "confirmatory_regime_analysis"
+      },
+      {
+        "source_symbol": "run_sympy_validations",
+        "exported_symbol": "run_sympy_validations"
+      }
+    ]
+  }
+}

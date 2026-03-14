@@ -1,0 +1,17 @@
+{
+  "results_summary_path": "/app/outputs/runs/847300d1-9697-4153-9694-f2ccf35bd6c3/workspace/experiments/gri_hybrid_validation/outputs/results_summary.json",
+  "figure_paths": [
+    "/app/outputs/runs/847300d1-9697-4153-9694-f2ccf35bd6c3/workspace/paper/figures/validation_main_panels.pdf",
+    "/app/outputs/runs/847300d1-9697-4153-9694-f2ccf35bd6c3/workspace/paper/figures/validation_confirmatory_panels.pdf"
+  ],
+  "table_paths": [
+    "/app/outputs/runs/847300d1-9697-4153-9694-f2ccf35bd6c3/workspace/experiments/gri_hybrid_validation/outputs/tables/metrics_summary.csv",
+    "/app/outputs/runs/847300d1-9697-4153-9694-f2ccf35bd6c3/workspace/experiments/gri_hybrid_validation/outputs/tables/acceptance_checks.csv",
+    "/app/outputs/runs/847300d1-9697-4153-9694-f2ccf35bd6c3/workspace/experiments/gri_hybrid_validation/outputs/tables/confirmatory_regime_analysis.csv"
+  ],
+  "dataset_paths": [
+    "/app/outputs/runs/847300d1-9697-4153-9694-f2ccf35bd6c3/workspace/experiments/gri_hybrid_validation/outputs/data/tri_state_candidates_v1.csv",
+    "/app/outputs/runs/847300d1-9697-4153-9694-f2ccf35bd6c3/workspace/experiments/gri_hybrid_validation/outputs/data/raw_metrics.csv"
+  ],
+  "sympy_report_path": "/app/outputs/runs/847300d1-9697-4153-9694-f2ccf35bd6c3/workspace/experiments/gri_hybrid_validation/outputs/reports/sympy_validation_report.json"
+}
