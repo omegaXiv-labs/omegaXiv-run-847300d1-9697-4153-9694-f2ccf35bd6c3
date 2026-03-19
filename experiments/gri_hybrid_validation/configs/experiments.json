@@ -1,0 +1,163 @@
+{
+  "selected_path_id": "path_p3_hybrid_ml_md_pareto",
+  "target_hypotheses": [
+    "hypothesis_h1_multistate_conditional_ranker",
+    "hypothesis_h3_hybrid_ml_md_robustness_filter",
+    "hypothesis_h4_pareto_safety_efficacy_manufacturability"
+  ],
+  "experiments": [
+    {
+      "id": "exp_h1_multistate_ranker_benchmark",
+      "datasets": [
+        "local:datasets/gri_tri_state_candidates_v1.jsonl",
+        "local:features/af2_af3_structure_feature_cache_v1.parquet"
+      ],
+      "baselines": [
+        "static_single_state_affinity_ranker_gnina_style",
+        "cai_ratio_heuristic_without_monotonic_constraints",
+        "tri_state_cross_entropy_classifier_no_pairwise_ranking",
+        "weak_supervision_h2_label_model_ranker",
+        "pairwise_ranker_without_uncertainty_penalty"
+      ],
+      "seeds": [11, 23, 37, 51, 73],
+      "metrics": [
+        "spearman_delta_rank_low_high",
+        "kendall_tau_tri_state_ordering",
+        "top20_precision_safe_high_response",
+        "topN_recall_vs_full_oracle",
+        "monotonicity_violation_rate",
+        "ece_calibration_error",
+        "brier_score"
+      ],
+      "sweep_params": {
+        "beta_uncertainty_penalty": ["0.0", "0.1", "0.2", "0.4"],
+        "encoder_backbone": ["esm2_t33", "af_features_mlp", "hybrid_concat"],
+        "lambda_monotonic_low_norm": ["0.1", "0.3", "0.6", "1.0"],
+        "lambda_monotonic_norm_high": ["0.1", "0.3", "0.6", "1.0"],
+        "shortlist_N": ["100", "200", "400"]
+      },
+      "acceptance_criteria": [
+        "Improves spearman_delta_rank_low_high by >= 0.10 over static_single_state_affinity_ranker_gnina_style across mean of seeds.",
+        "Reduces monotonicity_violation_rate by >= 30% vs static and tri_state_cross_entropy baselines.",
+        "Maintains topN_recall_vs_full_oracle >= 0.85 for shortlist_N=200.",
+        "Calibration constraint: ece_calibration_error <= 0.08 on validation split."
+      ]
+    },
+    {
+      "id": "exp_h3_hybrid_ml_md_reranking",
+      "datasets": [
+        "local:outputs/exp_h1_shortlist_topN_candidates.parquet",
+        "local:sim/md_paired_context_trajectories",
+        "local:features/interface_exposure_transition_metrics.parquet"
+      ],
+      "baselines": [
+        "ml_only_ranker_alpha_1",
+        "md_only_differential_ranker_alpha_0",
+        "hybrid_ranker_without_uncertainty_penalty",
+        "hybrid_ranker_without_low_glucose_safety_gate",
+        "static_docking_only_ranker"
+      ],
+      "seeds": [11, 23, 37, 51, 73],
+      "metrics": [
+        "false_positive_rate_top30",
+        "recall_top30",
+        "enrichment_factor_top10",
+        "auroc_low_glucose_adverse_label",
+        "q_low_gate_fail_enrichment",
+        "runtime_hours_per_100_candidates"
+      ],
+      "sweep_params": {
+        "alpha_ml_md_mix": ["0.2", "0.4", "0.6", "0.8"],
+        "beta_uncertainty": ["0.0", "0.1", "0.2", "0.3"],
+        "gamma_low_risk_penalty": ["0.1", "0.3", "0.5", "0.8"],
+        "md_ensemble_replicates": ["2", "4", "6"],
+        "md_trajectory_ns": ["5", "10", "20"],
+        "prefilter_topN": ["100", "200"],
+        "tau_safe_gate": ["0.15", "0.20", "0.25"]
+      },
+      "acceptance_criteria": [
+        "false_positive_rate_top30 decreases by >= 25% versus ml_only_ranker_alpha_1 with recall_top30 loss <= 10%.",
+        "An interior alpha_ml_md_mix setting in [0.2,0.8] outperforms endpoints alpha=0 and alpha=1 on enrichment_factor_top10.",
+        "Candidates rejected by tau_safe_gate show >= 1.5x enrichment for adverse low-glucose signatures in held-out checks.",
+        "runtime_hours_per_100_candidates remains <= 6.0 hours under the 2-GPU budget."
+      ]
+    },
+    {
+      "id": "exp_h4_pareto_selection_tradeoff",
+      "datasets": [
+        "local:outputs/exp_h3_ranked_candidates_with_md_features.parquet",
+        "local:features/manufacturability_surrogates_v1.parquet",
+        "local:features/efficacy_safety_uncertainty_bundle_v1.parquet"
+      ],
+      "baselines": [
+        "scalar_cai_only_ranking",
+        "weighted_sum_no_pareto_front_filter",
+        "epsilon_constraint_single_objective_selector",
+        "safety_only_threshold_selector",
+        "random_selector_from_prefilter_topN"
+      ],
+      "seeds": [11, 23, 37, 51, 73],
+      "metrics": [
+        "robust_hypervolume",
+        "nondominated_ratio_topK",
+        "matched_efficacy_low_glucose_violation_rate",
+        "manufacturability_pass_rate_topK",
+        "bootstrap_weight_sensitivity_index",
+        "jaccard_stability_of_selected_set"
+      ],
+      "sweep_params": {
+        "safety_delta": ["0.05", "0.10", "0.15"],
+        "topK": ["10", "20", "30"],
+        "w_E": ["0.3", "0.5", "0.7"],
+        "w_M": ["0.1", "0.3", "0.5"],
+        "w_S": ["0.2", "0.4", "0.6"],
+        "w_U": ["0.0", "0.1", "0.2"]
+      },
+      "acceptance_criteria": [
+        "nondominated_ratio_topK improves by >= 25% versus scalar_cai_only_ranking for topK=20.",
+        "matched_efficacy_low_glucose_violation_rate is reduced by >= 20% vs scalar baseline at comparable efficacy.",
+        "manufacturability_pass_rate_topK exceeds scalar baseline by >= 15%.",
+        "Selection stability requirement: jaccard_stability_of_selected_set >= 0.70 across bootstrap resamples and seeds."
+      ]
+    },
+    {
+      "id": "exp_hybrid_symbolic_assumption_boundary_counterexample",
+      "datasets": [
+        "local:phase_outputs/SYMPY.md symbolic identities and assumption set",
+        "local:synthetic/tri_state_boundary_case_grid_v1.csv",
+        "local:synthetic/adversarial_counterexample_candidates_v1.jsonl",
+        "local:bootstrap/exp_h1_h3_h4_metric_resamples.parquet"
+      ],
+      "baselines": [
+        "full_constrained_objectives_h1_h3_h4",
+        "no_monotonic_constraints_h1",
+        "no_uncertainty_penalties_h1_h3_h4",
+        "no_pareto_filter_h4_single_score",
+        "adversarial_randomized_scoring_policy"
+      ],
+      "seeds": [101, 211, 307, 401, 503],
+      "metrics": [
+        "theorem_assumption_satisfaction_rate",
+        "symbolic_identity_pass_rate",
+        "boundary_case_ordering_pass_rate",
+        "counterexample_failure_rate",
+        "stress_sensitivity_index",
+        "robustness_performance_tradeoff_gap"
+      ],
+      "sweep_params": {
+        "alpha_mix": ["0.0", "0.2", "0.5", "0.8", "1.0"],
+        "beta_uncertainty": ["0.0", "0.1", "0.2", "0.4"],
+        "counterexample_strength": ["mild", "moderate", "strong"],
+        "gamma_risk": ["0.0", "0.2", "0.5", "0.8"],
+        "glucose_state_grid_mM": ["2.5", "3.0", "5.0", "8.0", "12.0", "20.0"],
+        "wU": ["0.0", "0.1", "0.2", "0.3"]
+      },
+      "acceptance_criteria": [
+        "symbolic_identity_pass_rate = 1.00 for required SYMPY identities and constraints.",
+        "theorem_assumption_satisfaction_rate >= 0.95 on in-distribution validation samples.",
+        "boundary_case_ordering_pass_rate >= 0.95 at glucose boundaries (2.5/3.0/20.0 mM) for accepted shortlist candidates.",
+        "Under strong counterexamples, counterexample_failure_rate remains <= 0.20 and degradation versus full baseline is quantified with robustness_performance_tradeoff_gap <= 0.15."
+      ]
+    }
+  ]
+}

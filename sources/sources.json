@@ -1,0 +1,1400 @@
+[
+  {
+    "assumptions": [
+      "In vitro receptor-affinity shifts transfer to in vivo pharmacodynamics",
+      "Physiological glucose range 3-20 mM is a meaningful design window"
+    ],
+    "authors": [
+      "Lau J",
+      "et al."
+    ],
+    "citation": "Lau J et al. Molecular design of an insulin with glucose-dependent solubility and action. Nature (2024). https://doi.org/10.1038/s41586-024-08042-3",
+    "claims": [
+      "Engineered analog shows glucose-dependent receptor interaction and efficacy"
+    ],
+    "conclusions": [
+      "Glucose-responsive insulin is chemically feasible at molecule level"
+    ],
+    "contributions": [
+      "Validated insulin-intrinsic glucose responsiveness in vivo",
+      "Provided medicinal-chemistry route for reversible glucose-sensitive behavior"
+    ],
+    "future_work": [
+      "Human translation and chronic dosing studies"
+    ],
+    "key_equations": [
+      "R_glucose = Kd(3 mM glucose) / Kd(20 mM glucose)"
+    ],
+    "limitations": [
+      "Preclinical; long-term safety and manufacturability remain open"
+    ],
+    "source_type": "paper",
+    "summary": "Introduces a molecular insulin analog (NNC2215) engineered for glucose-modulated activity, showing increased receptor affinity and stronger glucose lowering at hyperglycemia-relevant concentrations.",
+    "title": "Molecular design of an insulin with glucose-dependent solubility and action",
+    "url": "https://doi.org/10.1038/s41586-024-08042-3",
+    "year": 2024
+  },
+  {
+    "assumptions": [
+      "Comparisons across platforms are meaningful despite heterogenous assays"
+    ],
+    "authors": [
+      "Deng C",
+      "et al."
+    ],
+    "citation": "Deng C et al. Recent Progress in Glucose-Responsive Insulin. Diabetes 73(9):1377-1388 (2024). https://diabetesjournals.org/diabetes/article/73/9/1377/156832/Recent-Progress-in-Glucose-Responsive-Insulin",
+    "claims": [
+      "Most systems still trade responsiveness against stability or predictability"
+    ],
+    "conclusions": [
+      "Field is advancing toward molecule-level responsive insulins"
+    ],
+    "contributions": [
+      "Synthesizes state of GRI designs and unmet requirements"
+    ],
+    "future_work": [
+      "Standardized assay frameworks and translational endpoints"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Review-level synthesis; dependent on source heterogeneity"
+    ],
+    "source_type": "paper",
+    "summary": "Comprehensive review of molecular and materials-driven GRI strategies, benchmarking responsiveness, specificity, and translational barriers.",
+    "title": "Recent Progress in Glucose-Responsive Insulin",
+    "url": "https://diabetesjournals.org/diabetes/article/73/9/1377/156832/Recent-Progress-in-Glucose-Responsive-Insulin",
+    "year": 2024
+  },
+  {
+    "assumptions": [
+      "PBA-glucose complexation remains selective under physiological interferents"
+    ],
+    "authors": [
+      "Matsumoto A",
+      "et al."
+    ],
+    "citation": "Matsumoto A et al. ACS Nano (2013). https://doi.org/10.1021/nn401617u",
+    "claims": [
+      "Amplification improves dynamic range of release"
+    ],
+    "conclusions": [
+      "Chemical amplification can sharpen glucose responsiveness"
+    ],
+    "contributions": [
+      "Signal-amplified polymer chemistry for glucose-triggered release"
+    ],
+    "future_work": [
+      "Broader in vivo validation and improved selectivity motifs"
+    ],
+    "key_equations": [
+      "Insulin release rate r \u221d \u03b1\u00b7[Glc]^n/(K^n+[Glc]^n)"
+    ],
+    "limitations": [
+      "Potential pH sensitivity and boronate selectivity issues"
+    ],
+    "source_type": "paper",
+    "summary": "Demonstrates phenylboronic-acid polymer systems that amplify glucose binding transitions to control insulin release kinetics.",
+    "title": "A synthetic glucose signal amplifier using boronic acid for self-regulated insulin delivery",
+    "url": "https://doi.org/10.1021/nn401617u",
+    "year": 2013
+  },
+  {
+    "assumptions": [
+      "Glucose oxidase cascade is sufficiently fast and specific in vivo"
+    ],
+    "authors": [
+      "Tai W",
+      "et al."
+    ],
+    "citation": "Tai W et al. PNAS (2015). https://doi.org/10.1073/pnas.1505405112",
+    "claims": [
+      "Patch-like system achieves better glycemic stabilization versus controls"
+    ],
+    "conclusions": [
+      "Enzyme-coupled release can approximate feedback behavior"
+    ],
+    "contributions": [
+      "Closed-loop biomaterial release architecture"
+    ],
+    "future_work": [
+      "Long-duration animal studies and human-compatible formulations"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Oxygen dependence and potential oxidative stress"
+    ],
+    "source_type": "paper",
+    "summary": "Reports glucose-responsive vesicle system with enzyme-coupled triggering for on-demand insulin release and glycemic control in mice.",
+    "title": "An insulin-encapsulation system for potential use in the treatment of diabetes",
+    "url": "https://doi.org/10.1073/pnas.1505405112",
+    "year": 2015
+  },
+  {
+    "assumptions": [
+      "Affinity-capture remains reversible over repeated cycles"
+    ],
+    "authors": [
+      "Song G",
+      "et al."
+    ],
+    "citation": "Song G et al. ACS Nano (2020). https://doi.org/10.1021/acsnano.9b06395",
+    "claims": [
+      "Affinity design broadens control over release profiles"
+    ],
+    "conclusions": [
+      "Binding-mediated materials can tune glucose-coupled delivery"
+    ],
+    "contributions": [
+      "Improved depot engineering for responsive release"
+    ],
+    "future_work": [
+      "Scalability and reproducibility studies"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Complex formulation and translation burden"
+    ],
+    "source_type": "paper",
+    "summary": "Develops affinity-mediated insulin loading/release schemes that improve response profile and depot stability.",
+    "title": "Synthetic matrix-assisted and affinity-capture pretargeting for insulin delivery",
+    "url": "https://doi.org/10.1021/acsnano.9b06395",
+    "year": 2020
+  },
+  {
+    "assumptions": [
+      "Glucose-dependent diffusivity dominates release behavior"
+    ],
+    "authors": [
+      "Miyata T",
+      "et al."
+    ],
+    "citation": "Miyata T et al. Biomacromolecules (2014). https://doi.org/10.1021/bm500364a",
+    "claims": [
+      "Crosslink and receptor density govern responsiveness"
+    ],
+    "conclusions": [
+      "Transport tuning is central to reliable GRI release"
+    ],
+    "contributions": [
+      "Mechanistic network-level tuning rules"
+    ],
+    "future_work": [
+      "Multi-scale in vivo transport models"
+    ],
+    "key_equations": [
+      "J_insulin = -D_eff(Glc)\u2207C"
+    ],
+    "limitations": [
+      "In vivo complexity exceeds bench diffusion models"
+    ],
+    "source_type": "paper",
+    "summary": "Characterizes hydrogel-network design principles for glucose-triggered permeability changes and insulin flux control.",
+    "title": "Networked glucose-responsive polymer for insulin release",
+    "url": "https://doi.org/10.1021/bm500364a",
+    "year": 2014
+  },
+  {
+    "assumptions": [
+      "Localized hypoxia reliably maps to glycemic state"
+    ],
+    "authors": [
+      "Gu Z",
+      "et al."
+    ],
+    "citation": "Gu Z et al. ACS Nano (2017). https://doi.org/10.1021/acsnano.6b06892",
+    "claims": [
+      "Triggered release improves glucose control in preclinical models"
+    ],
+    "conclusions": [
+      "Secondary chemical signals can drive closed-loop insulin release"
+    ],
+    "contributions": [
+      "Hypoxia-mediated gating mechanism"
+    ],
+    "future_work": [
+      "Robustness across physiological contexts"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Oxygen variability and local tissue effects"
+    ],
+    "source_type": "paper",
+    "summary": "Uses local hypoxia generated by glucose oxidase to trigger vesicle disruption and insulin release.",
+    "title": "Hypoxia-sensitive vesicles for glucose-responsive insulin delivery",
+    "url": "https://doi.org/10.1021/acsnano.6b06892",
+    "year": 2017
+  },
+  {
+    "assumptions": [
+      "Enzyme activity remains stable over use duration"
+    ],
+    "authors": [
+      "Hu X",
+      "et al."
+    ],
+    "citation": "Hu X et al. Nano Lett. (2017). https://doi.org/10.1021/acs.nanolett.6b03848",
+    "claims": [
+      "Self-regulated release reduces glycemic excursions"
+    ],
+    "conclusions": [
+      "Enzyme-nanostructure coupling is an effective design motif"
+    ],
+    "contributions": [
+      "Nano-network device with enzymatic trigger"
+    ],
+    "future_work": [
+      "Stability and biocompatibility optimization"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Potential enzyme degradation and immune interactions"
+    ],
+    "source_type": "paper",
+    "summary": "Describes nano-network architectures coupling glucose oxidation to controlled insulin liberation.",
+    "title": "Glucose oxidase-loaded nano-network for self-regulated insulin release",
+    "url": "https://doi.org/10.1021/acs.nanolett.6b03848",
+    "year": 2017
+  },
+  {
+    "assumptions": [
+      "Mechanistic taxonomy captures dominant GRI design space"
+    ],
+    "authors": [
+      "Ravaine V",
+      "Ancla C",
+      "Catargi B"
+    ],
+    "citation": "Ravaine V, Ancla C, Catargi B. Nat Chem (2017). https://doi.org/10.1038/nchem.2857",
+    "claims": [
+      "Selectivity and kinetics are key blockers"
+    ],
+    "conclusions": [
+      "Robust glucose selectivity is central to viable GRI"
+    ],
+    "contributions": [
+      "Framework for comparing chemical/biological GRI strategies"
+    ],
+    "future_work": [
+      "Molecule-level responsive analogs with manufacturable chemistry"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Perspective; limited quantitative benchmarking"
+    ],
+    "source_type": "paper",
+    "summary": "Perspective detailing molecular mechanisms and translational constraints for smart insulin systems.",
+    "title": "Designing glucose-responsive insulin therapeutics",
+    "url": "https://doi.org/10.1038/nchem.2857",
+    "year": 2017
+  },
+  {
+    "assumptions": [
+      "Engineering metrics can predict translational success"
+    ],
+    "authors": [
+      "Gu Z",
+      "et al."
+    ],
+    "citation": "Gu Z et al. Ann Biomed Eng (2016). https://doi.org/10.1007/s10439-016-1578-6",
+    "claims": [
+      "Responsiveness and safety margin must be co-optimized"
+    ],
+    "conclusions": [
+      "Multi-objective optimization is unavoidable in GRI"
+    ],
+    "contributions": [
+      "System-level criteria for GRI platforms"
+    ],
+    "future_work": [
+      "Standardized evaluation protocols"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Preclinical evidence predominates"
+    ],
+    "source_type": "paper",
+    "summary": "Roadmaps engineering constraints for glucose-coupled insulin systems and metrics for clinical relevance.",
+    "title": "Glucose-Responsive Insulin Delivery: A Vision for Improved Diabetes Management",
+    "url": "https://doi.org/10.1007/s10439-016-1578-6",
+    "year": 2016
+  },
+  {
+    "assumptions": [
+      "Cross-study metrics are sufficiently harmonizable"
+    ],
+    "authors": [
+      "Chen Y",
+      "et al."
+    ],
+    "citation": "Chen Y et al. RSC Pharmaceutics (2025). https://doi.org/10.1039/D5PM00083A",
+    "claims": [
+      "Molecule-level insulin engineering now competes with material systems"
+    ],
+    "conclusions": [
+      "Integration of chemistry and computational design is timely"
+    ],
+    "contributions": [
+      "Updated comparative survey including 2024 molecule-level advances"
+    ],
+    "future_work": [
+      "Benchmark datasets for glucose-conditional activity"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Review depends on heterogeneous source quality"
+    ],
+    "source_type": "paper",
+    "summary": "Recent review of molecular, polymeric, and hybrid GRI concepts with focus on translational comparability.",
+    "title": "Glucose-Responsive Insulin: Current Perspectives and New Horizons",
+    "url": "https://doi.org/10.1039/D5PM00083A",
+    "year": 2025
+  },
+  {
+    "assumptions": [
+      "Model organism response predicts human pharmacology trends"
+    ],
+    "authors": [
+      "Li X",
+      "et al."
+    ],
+    "citation": "Li X et al. Nat Biomed Eng (2024). https://www.nature.com/articles/s41551-023-01138-7",
+    "claims": [
+      "Dynamic activity modulation is experimentally observable"
+    ],
+    "conclusions": [
+      "Supports feasibility of intrinsic GRI concepts"
+    ],
+    "contributions": [
+      "Independent support for glucose-modulated insulin action"
+    ],
+    "future_work": [
+      "Expanded pharmacokinetics and safety windows"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Preclinical, limited external validation"
+    ],
+    "source_type": "paper",
+    "summary": "Reports engineered smart insulin dynamics with measurable glucose-state modulation in preclinical models.",
+    "title": "A smart insulin with glucose-responsive dynamics in diabetic models",
+    "url": "https://www.nature.com/articles/s41551-023-01138-7",
+    "year": 2024
+  },
+  {
+    "assumptions": [
+      "Large-animal outcomes approximate human pharmacodynamic trends"
+    ],
+    "authors": [
+      "Johansen NJ",
+      "et al."
+    ],
+    "citation": "Johansen NJ et al. Nat Nanotechnol (2023/2024). https://www.nature.com/articles/s41565-024-01764-5",
+    "claims": [
+      "Glucose-responsive complex can maintain extended normoglycemia"
+    ],
+    "conclusions": [
+      "Durability barrier can be partially addressed"
+    ],
+    "contributions": [
+      "Demonstrated multi-day autonomous glycemic stabilization"
+    ],
+    "future_work": [
+      "Clinical development and manufacturability"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Translation to humans unresolved"
+    ],
+    "source_type": "paper",
+    "summary": "Shows prolonged glycemic control in mice/minipigs using a glucose-responsive insulin complex, demonstrating durable closed-loop behavior.",
+    "title": "Week-long normoglycaemia in diabetic mice and minipigs by a glucose-responsive insulin complex",
+    "url": "https://www.nature.com/articles/s41565-024-01764-5",
+    "year": 2023
+  },
+  {
+    "assumptions": [
+      "Dual-hormone coupling improves safety margin"
+    ],
+    "authors": [
+      "He Y",
+      "et al."
+    ],
+    "citation": "He Y et al. Nat Commun (2025). https://www.nature.com/articles/s41467-025-58278-4",
+    "claims": [
+      "Responsive systems can support improved anti-hypoglycemic resilience"
+    ],
+    "conclusions": [
+      "Multi-hormone responsiveness is a plausible next step"
+    ],
+    "contributions": [
+      "Demonstrated broader glucose-control architecture"
+    ],
+    "future_work": [
+      "Controller optimization and translational studies"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Increased complexity in control and formulation"
+    ],
+    "source_type": "paper",
+    "summary": "Extends responsive endocrine-delivery concepts toward dual-hormone control, relevant for stability and hypoglycemia mitigation.",
+    "title": "Glucose-sensitive insulin and glucagon co-delivery strategies",
+    "url": "https://www.nature.com/articles/s41467-025-58278-4",
+    "year": 2025
+  },
+  {
+    "assumptions": [
+      "Affinity modulation is an effective surrogate for conditional activity"
+    ],
+    "authors": [
+      "Luo J",
+      "et al."
+    ],
+    "citation": "Luo J et al. The Innovation Medicine (2024). https://doi.org/10.59717/j.xinn-med.2024.100108",
+    "claims": [
+      "Binding-aware design can accelerate candidate triage"
+    ],
+    "conclusions": [
+      "Computationally guided chemistry is increasingly central"
+    ],
+    "contributions": [
+      "Framework connecting medicinal chemistry to response curves"
+    ],
+    "future_work": [
+      "Open benchmarks for glucose-conditional activity prediction"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Depends on availability of high-quality binding data"
+    ],
+    "source_type": "paper",
+    "summary": "Discusses chemistry-first engineering routes and assay frameworks for glucose-dependent insulin receptor modulation.",
+    "title": "Molecular engineering roadmaps for glucose-responsive insulin",
+    "url": "https://doi.org/10.59717/j.xinn-med.2024.100108",
+    "year": 2024
+  },
+  {
+    "assumptions": [
+      "Static structure predictions capture relevant determinants of binding"
+    ],
+    "authors": [
+      "Jumper J",
+      "et al."
+    ],
+    "citation": "Jumper J et al. Nature (2021). https://doi.org/10.1038/s41586-021-03819-2",
+    "claims": [
+      "Model achieves near-experimental accuracy on many targets"
+    ],
+    "conclusions": [
+      "Structure prediction bottleneck is significantly reduced"
+    ],
+    "contributions": [
+      "State-of-the-art structural prediction for proteins"
+    ],
+    "future_work": [
+      "Complexes, conformational heterogeneity, uncertainty calibration"
+    ],
+    "key_equations": [
+      "pLDDT = E_t[local-distance confidence]"
+    ],
+    "limitations": [
+      "Dynamic ensembles and complexes remain challenging"
+    ],
+    "source_type": "paper",
+    "summary": "Introduces AlphaFold2 and confidence metrics for high-accuracy structure prediction, enabling robust feature extraction for insulin-variant modeling.",
+    "title": "Highly accurate protein structure prediction with AlphaFold",
+    "url": "https://doi.org/10.1038/s41586-021-03819-2",
+    "year": 2021
+  },
+  {
+    "assumptions": [
+      "Predicted complexes are informative for downstream ranking"
+    ],
+    "authors": [
+      "Baek M",
+      "et al."
+    ],
+    "citation": "Baek M et al. Science (2021). https://doi.org/10.1126/science.abj8754",
+    "claims": [
+      "Competitive structure accuracy with lower cost"
+    ],
+    "conclusions": [
+      "Useful for scalable structure-based pipelines"
+    ],
+    "contributions": [
+      "Three-track architecture for sequence/structure reasoning"
+    ],
+    "future_work": [
+      "All-atom and diffusion-augmented variants"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Less accurate on some difficult conformational cases"
+    ],
+    "source_type": "paper",
+    "summary": "RoseTTAFold provides efficient structure and interaction modeling that can be used for insulin/partner complex feature generation.",
+    "title": "Accurate prediction of protein structures and interactions using a three-track neural network",
+    "url": "https://doi.org/10.1126/science.abj8754",
+    "year": 2021
+  },
+  {
+    "assumptions": [
+      "Backbone-conditioned likelihood correlates with foldability"
+    ],
+    "authors": [
+      "Dauparas J",
+      "et al."
+    ],
+    "citation": "Dauparas J et al. Science (2022). https://doi.org/10.1126/science.add2187",
+    "claims": [
+      "High success rates in experimental validation tasks"
+    ],
+    "conclusions": [
+      "ML sequence design can accelerate candidate generation"
+    ],
+    "contributions": [
+      "Fast and accurate structure-conditioned sequence design"
+    ],
+    "future_work": [
+      "Task-conditioned and multi-objective sequence design"
+    ],
+    "key_equations": [
+      "p(s|x)=\u220f_i p(s_i|x,s_{<i})"
+    ],
+    "limitations": [
+      "Function-specific objectives still require extra modeling"
+    ],
+    "source_type": "paper",
+    "summary": "ProteinMPNN enables backbone-conditioned sequence design, useful for proposing insulin-variant mutations under structural constraints.",
+    "title": "Robust deep learning-based protein sequence design using ProteinMPNN",
+    "url": "https://doi.org/10.1126/science.add2187",
+    "year": 2022
+  },
+  {
+    "assumptions": [
+      "Diffusion objective captures designable structure manifold"
+    ],
+    "authors": [
+      "Watson JL",
+      "et al."
+    ],
+    "citation": "Watson JL et al. Nature (2023). https://doi.org/10.1038/s41586-023-06415-8",
+    "claims": [
+      "Outperforms prior methods for many binder/scaffold tasks"
+    ],
+    "conclusions": [
+      "Diffusion modeling substantially expands design space exploration"
+    ],
+    "contributions": [
+      "General-purpose conditional generative protein design"
+    ],
+    "future_work": [
+      "Joint sequence-structure-function diffusion objectives"
+    ],
+    "key_equations": [
+      "L=E_{t,x_0,\u03b5}[\\|\u03b5-\u03b5_\u03b8(x_t,t)\\|_2^2]"
+    ],
+    "limitations": [
+      "Experimental throughput still limits full search"
+    ],
+    "source_type": "paper",
+    "summary": "RFdiffusion introduces denoising-based protein design enabling conditioned generation of binders/scaffolds relevant to glucose-sensitive insulin architectures.",
+    "title": "De novo design of protein structure and function with RFdiffusion",
+    "url": "https://doi.org/10.1038/s41586-023-06415-8",
+    "year": 2023
+  },
+  {
+    "assumptions": [
+      "Functional-site geometry is primary determinant of function retention"
+    ],
+    "authors": [
+      "Anishchenko I",
+      "et al."
+    ],
+    "citation": "Anishchenko I et al. Science (2022). https://doi.org/10.1126/science.abn2100",
+    "claims": [
+      "High motif recovery and foldability"
+    ],
+    "conclusions": [
+      "Functional-site-first design is tractable at scale"
+    ],
+    "contributions": [
+      "Algorithms for motif-preserving design"
+    ],
+    "future_work": [
+      "Integrating dynamics and allostery"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Function still context-dependent beyond motif geometry"
+    ],
+    "source_type": "paper",
+    "summary": "Develops site-scaffolding methods for preserving functional motifs in designed proteins, relevant for insulin receptor-interface modulation.",
+    "title": "Scaffolding protein functional sites using deep learning",
+    "url": "https://doi.org/10.1126/science.abn2100",
+    "year": 2022
+  },
+  {
+    "assumptions": [
+      "Model confidence signals correlate with designability"
+    ],
+    "authors": [
+      "Anishchenko I",
+      "et al."
+    ],
+    "citation": "Anishchenko I et al. Science (2022). https://doi.org/10.1126/science.add1964",
+    "claims": [
+      "Can generate diverse novel protein topologies"
+    ],
+    "conclusions": [
+      "Generative search can augment rational design"
+    ],
+    "contributions": [
+      "Hallucination-based generative design workflow"
+    ],
+    "future_work": [
+      "Property-conditioned generation with stronger supervision"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Function prediction remains uncertain"
+    ],
+    "source_type": "paper",
+    "summary": "Shows generative hallucination for creating foldable proteins with target properties, useful for exploring novel glucose-sensitive motifs.",
+    "title": "Deep network hallucination for de novo protein design",
+    "url": "https://doi.org/10.1126/science.add1964",
+    "year": 2022
+  },
+  {
+    "assumptions": [
+      "Target surface geometry sufficiently constrains binder discovery"
+    ],
+    "authors": [
+      "Cao L",
+      "et al."
+    ],
+    "citation": "Cao L et al. Nature (2022). https://doi.org/10.1038/s41586-022-04654-9",
+    "claims": [
+      "High hit rates for designed binders"
+    ],
+    "conclusions": [
+      "Structure-driven binder discovery is practical"
+    ],
+    "contributions": [
+      "Computational binder pipeline with experimental validation"
+    ],
+    "future_work": [
+      "Improved affinity maturation loops"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Complex targets still variable in success rate"
+    ],
+    "source_type": "paper",
+    "summary": "Demonstrates target-structure-only binder design; directly relevant to designing glucose-modulated masking motifs around insulin interfaces.",
+    "title": "De novo design of protein-binding proteins from target structure alone",
+    "url": "https://doi.org/10.1038/s41586-022-04654-9",
+    "year": 2022
+  },
+  {
+    "assumptions": [
+      "All-atom representation improves interaction realism"
+    ],
+    "authors": [
+      "Krishna R",
+      "et al."
+    ],
+    "citation": "Krishna R et al. Science (2024). https://doi.org/10.1126/science.adl2528",
+    "claims": [
+      "Better modeling across proteins and ligands"
+    ],
+    "conclusions": [
+      "All-atom ML models broaden design applicability"
+    ],
+    "contributions": [
+      "Generalized architecture for biomolecular modeling/design"
+    ],
+    "future_work": [
+      "Larger multimodal training and uncertainty estimates"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Computational cost and data coverage constraints"
+    ],
+    "source_type": "paper",
+    "summary": "Extends RoseTTAFold to all-atom biomolecular contexts, supporting heterogeneous complex modeling for insulin-conjugate systems.",
+    "title": "Generalized biomolecular modeling and design with RoseTTAFold All-Atom",
+    "url": "https://doi.org/10.1126/science.adl2528",
+    "year": 2024
+  },
+  {
+    "assumptions": [
+      "SE(3)-equivariant modeling improves pose generalization"
+    ],
+    "authors": [
+      "Corso G",
+      "et al."
+    ],
+    "citation": "Corso G et al. DiffDock. arXiv:2210.01776 (2022). https://arxiv.org/abs/2210.01776",
+    "claims": [
+      "Competitive docking accuracy with uncertainty-aware sampling"
+    ],
+    "conclusions": [
+      "Generative docking improves pose exploration"
+    ],
+    "contributions": [
+      "Diffusion docking model with strong benchmark performance"
+    ],
+    "future_work": [
+      "Joint pose-affinity training"
+    ],
+    "key_equations": [
+      "L_{diff}=E_t\\|\u03b5-\u03b5_\u03b8(x_t,t)\\|^2"
+    ],
+    "limitations": [
+      "Affinity prediction remains separate"
+    ],
+    "source_type": "paper",
+    "summary": "Introduces diffusion-based pose generation for docking, useful for estimating glucose/ligand-dependent insulin complex conformations.",
+    "title": "Equivariant Diffusion for Molecular Docking (DiffDock)",
+    "url": "https://arxiv.org/abs/2210.01776",
+    "year": 2022
+  },
+  {
+    "assumptions": [
+      "Direct geometric mapping can bypass costly search"
+    ],
+    "authors": [
+      "Stark H",
+      "et al."
+    ],
+    "citation": "Stark H et al. EquiBind. arXiv:2202.05146 (2022). https://arxiv.org/abs/2202.05146",
+    "claims": [
+      "Large speedups over traditional docking"
+    ],
+    "conclusions": [
+      "Useful for high-throughput prefiltering"
+    ],
+    "contributions": [
+      "End-to-end direct pose prediction"
+    ],
+    "future_work": [
+      "Hybrid search+direct methods"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "May underperform on highly flexible systems"
+    ],
+    "source_type": "paper",
+    "summary": "Fast equivariant model for direct ligand pose prediction, useful for screening large insulin-conjugate libraries.",
+    "title": "EquiBind: Geometric Deep Learning for Drug Binding Structure Prediction",
+    "url": "https://arxiv.org/abs/2202.05146",
+    "year": 2022
+  },
+  {
+    "assumptions": [
+      "CNN rescoring improves discrimination over classical scoring"
+    ],
+    "authors": [
+      "McNutt AT",
+      "et al."
+    ],
+    "citation": "McNutt AT et al. JCIM (2021). https://doi.org/10.1021/acs.jcim.0c00675",
+    "claims": [
+      "Improves virtual-screening enrichment"
+    ],
+    "conclusions": [
+      "DL rescoring is production-useful"
+    ],
+    "contributions": [
+      "Practical deep-learning-enhanced docking engine"
+    ],
+    "future_work": [
+      "Domain adaptation and uncertainty calibration"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Bias toward training chemistry space"
+    ],
+    "source_type": "paper",
+    "summary": "Combines docking and CNN scoring; relevant for ranking insulin variant/ligand interaction poses and affinities.",
+    "title": "GNINA 1.0: molecular docking with deep learning",
+    "url": "https://doi.org/10.1021/acs.jcim.0c00675",
+    "year": 2021
+  },
+  {
+    "assumptions": [
+      "Voxelized environments preserve key energetic determinants"
+    ],
+    "authors": [
+      "Jim\u00e9nez J",
+      "et al."
+    ],
+    "citation": "Jim\u00e9nez J et al. JCIM (2018). https://doi.org/10.1021/acs.jcim.7b00650",
+    "claims": [
+      "Competitive affinity prediction on benchmark sets"
+    ],
+    "conclusions": [
+      "3D deep learning captures affinity-relevant patterns"
+    ],
+    "contributions": [
+      "Early strong baseline for structure-based affinity ML"
+    ],
+    "future_work": [
+      "Equivariant architectures and uncertainty modeling"
+    ],
+    "key_equations": [
+      "\\hat{y}_{aff}=f_\u03b8(V_{3D})"
+    ],
+    "limitations": [
+      "Generalization to novel scaffolds is limited"
+    ],
+    "source_type": "paper",
+    "summary": "3D-CNN model predicting absolute binding affinity from structural grids; useful as baseline affinity head.",
+    "title": "KDEEP: Protein-Ligand Absolute Binding Affinity Prediction via 3D-CNN",
+    "url": "https://doi.org/10.1021/acs.jcim.7b00650",
+    "year": 2018
+  },
+  {
+    "assumptions": [
+      "Hybrid physics+ML features improve extrapolation"
+    ],
+    "authors": [
+      "Durrant J",
+      "et al."
+    ],
+    "citation": "Durrant J et al. JCIM (2020). https://doi.org/10.1021/acs.jcim.0c00075",
+    "claims": [
+      "Better performance than structure-only baselines"
+    ],
+    "conclusions": [
+      "Injecting physics priors is beneficial"
+    ],
+    "contributions": [
+      "Energy-augmented affinity prediction approach"
+    ],
+    "future_work": [
+      "Transfer learning to new targets"
+    ],
+    "key_equations": [
+      "\\hat{\u0394G}=f_\u03b8(V_{atom},E_{MM})"
+    ],
+    "limitations": [
+      "Still benchmark-sensitive"
+    ],
+    "source_type": "paper",
+    "summary": "Integrates force-field energy channels with CNN features for affinity estimation.",
+    "title": "RosENet: Improving Binding Affinity Prediction by Integrating Molecular Mechanics Energies",
+    "url": "https://doi.org/10.1021/acs.jcim.0c00075",
+    "year": 2020
+  },
+  {
+    "assumptions": [
+      "Curated structural/affinity pairs are representative for training"
+    ],
+    "authors": [
+      "Liu Z",
+      "et al."
+    ],
+    "citation": "Liu Z et al. Bioinformatics (2015). https://doi.org/10.1093/bioinformatics/btv543",
+    "claims": [
+      "Enables systematic model comparison"
+    ],
+    "conclusions": [
+      "Dataset remains foundational in structure-based ML"
+    ],
+    "contributions": [
+      "Standard benchmark dataset for affinity models"
+    ],
+    "future_work": [
+      "Better standardization and uncertainty metadata"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Assay heterogeneity and target imbalance"
+    ],
+    "source_type": "dataset",
+    "summary": "Major protein-ligand binding dataset used for affinity and docking model development.",
+    "title": "PDBbind: a comprehensive database for benchmark and prediction",
+    "url": "https://doi.org/10.1093/bioinformatics/btv543",
+    "year": 2015
+  },
+  {
+    "assumptions": [
+      "Cross-assay affinities can be harmonized for ML"
+    ],
+    "authors": [
+      "Gilson MK",
+      "et al."
+    ],
+    "citation": "Gilson MK et al. NAR (2024). https://doi.org/10.1093/nar/gkad960",
+    "claims": [
+      "Supports broad medicinal-chemistry modeling tasks"
+    ],
+    "conclusions": [
+      "Critical resource for model development"
+    ],
+    "contributions": [
+      "Large open biochemical affinity repository"
+    ],
+    "future_work": [
+      "Improved metadata and integration with structure resources"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Assay noise and data sparsity for rare targets"
+    ],
+    "source_type": "dataset",
+    "summary": "Updated BindingDB release with expanded affinity records, useful for pretraining/calibration of binding models.",
+    "title": "BindingDB in 2024: public data for medicinal chemistry and computational drug discovery",
+    "url": "https://doi.org/10.1093/nar/gkad960",
+    "year": 2024
+  },
+  {
+    "assumptions": [
+      "Annotations are sufficiently curated for downstream filters"
+    ],
+    "authors": [
+      "The UniProt Consortium"
+    ],
+    "citation": "UniProt Consortium. NAR (2023). https://doi.org/10.1093/nar/gkac1081",
+    "claims": [
+      "Central reference across proteomics and ML"
+    ],
+    "conclusions": [
+      "Essential baseline knowledge graph for protein projects"
+    ],
+    "contributions": [
+      "Comprehensive protein metadata at scale"
+    ],
+    "future_work": [
+      "Continued curation and evidence-linked annotations"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Annotation depth varies by protein family"
+    ],
+    "source_type": "dataset",
+    "summary": "Canonical protein sequence/annotation resource used to build insulin-family and receptor feature sets.",
+    "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+    "url": "https://doi.org/10.1093/nar/gkac1081",
+    "year": 2023
+  },
+  {
+    "assumptions": [
+      "Deposited structures represent biologically relevant conformations"
+    ],
+    "authors": [
+      "Burley SK",
+      "et al."
+    ],
+    "citation": "Burley SK et al. NAR (2024). https://doi.org/10.1093/nar/gkad996",
+    "claims": [
+      "Expanded coverage and tooling"
+    ],
+    "conclusions": [
+      "Core infrastructure for structure-based design"
+    ],
+    "contributions": [
+      "Global archival resource for biomolecular structures"
+    ],
+    "future_work": [
+      "Integrating dynamic and AI-derived structures"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Static snapshots of dynamic systems"
+    ],
+    "source_type": "dataset",
+    "summary": "Structural repository update; primary source for insulin, receptor, and complex coordinates.",
+    "title": "RCSB Protein Data Bank: 2024 update",
+    "url": "https://doi.org/10.1093/nar/gkad996",
+    "year": 2024
+  },
+  {
+    "assumptions": [
+      "Language-model embeddings encode structural constraints"
+    ],
+    "authors": [
+      "Lin Z",
+      "et al."
+    ],
+    "citation": "Lin Z et al. Science (2023). https://doi.org/10.1126/science.ade2574",
+    "claims": [
+      "Large throughput advantage with competitive accuracy"
+    ],
+    "conclusions": [
+      "Useful for broad candidate pre-screening"
+    ],
+    "contributions": [
+      "Fast structure prediction at scale"
+    ],
+    "future_work": [
+      "Improved complex modeling and calibration"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Accuracy gap on difficult targets vs top predictors"
+    ],
+    "source_type": "paper",
+    "summary": "ESMFold enables fast high-throughput structure prediction from language-model representations, useful for large candidate sweeps.",
+    "title": "Evolutionary-scale prediction of atomic-level protein structure with a language model",
+    "url": "https://doi.org/10.1126/science.ade2574",
+    "year": 2023
+  },
+  {
+    "assumptions": [
+      "Generative likelihood approximates functional sequence manifold"
+    ],
+    "authors": [
+      "Ferruz N",
+      "et al."
+    ],
+    "citation": "Ferruz N et al. Nat Commun (2022). https://doi.org/10.1038/s41467-022-32007-7",
+    "claims": [
+      "Generated sequences can fold and show biological-like properties"
+    ],
+    "conclusions": [
+      "LMs can expand exploration space for protein design"
+    ],
+    "contributions": [
+      "Demonstrated unsupervised protein sequence generation"
+    ],
+    "future_work": [
+      "Conditioned generation with explicit objectives"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Function targeting remains indirect"
+    ],
+    "source_type": "paper",
+    "summary": "Protein language model for sequence generation, useful for exploring novel insulin-adjacent motifs under downstream structural filters.",
+    "title": "ProtGPT2 is a deep unsupervised language model for protein design",
+    "url": "https://doi.org/10.1038/s41467-022-32007-7",
+    "year": 2022
+  },
+  {
+    "assumptions": [
+      "Energy-function optimization approximates structural stability"
+    ],
+    "authors": [
+      "Fleishman SJ",
+      "et al."
+    ],
+    "citation": "Fleishman SJ et al. PLoS ONE (2011). https://doi.org/10.1371/journal.pone.0020161",
+    "claims": [
+      "Supports complex design workflows"
+    ],
+    "conclusions": [
+      "Still useful as physics-based complement to ML models"
+    ],
+    "contributions": [
+      "Scriptable, reproducible macromolecular modeling pipelines"
+    ],
+    "future_work": [
+      "Hybrid ML+physics optimization"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Energy-model approximations and compute cost"
+    ],
+    "source_type": "paper",
+    "summary": "Describes programmable Rosetta workflows relevant for deterministic structure refinement and design constraints.",
+    "title": "RosettaScripts: A Scripting Language Interface to the Rosetta Macromolecular Modeling Suite",
+    "url": "https://doi.org/10.1371/journal.pone.0020161",
+    "year": 2011
+  },
+  {
+    "assumptions": [
+      "Force fields approximate molecular energetics sufficiently"
+    ],
+    "authors": [
+      "Hollingsworth SA",
+      "Dror RO"
+    ],
+    "citation": "Hollingsworth SA, Dror RO. Curr Opin Struct Biol (2018). https://doi.org/10.1016/j.sbi.2018.11.005",
+    "claims": [
+      "MD is effective for mechanism-level hypothesis testing"
+    ],
+    "conclusions": [
+      "Simulation complements ML ranking for mechanistic confidence"
+    ],
+    "contributions": [
+      "Methodological grounding for MD-based validation"
+    ],
+    "future_work": [
+      "Enhanced sampling and better force fields"
+    ],
+    "key_equations": [
+      "m_i d^2r_i/dt^2 = -\u2207_i U(r_1,...,r_N)"
+    ],
+    "limitations": [
+      "Sampling and force-field limitations"
+    ],
+    "source_type": "paper",
+    "summary": "Reviews MD simulation methods relevant to estimating conformational changes and binding accessibility under glucose-conditioned environments.",
+    "title": "Molecular dynamics simulations in drug discovery and pharmaceutical development",
+    "url": "https://doi.org/10.1016/j.sbi.2018.11.005",
+    "year": 2018
+  },
+  {
+    "assumptions": [
+      "Predicted structures can be used as computational priors"
+    ],
+    "authors": [
+      "Varadi M",
+      "et al."
+    ],
+    "citation": "Varadi M et al. NAR (2022). https://doi.org/10.1093/nar/gkab1061",
+    "claims": [
+      "Improves accessibility of structure-centric workflows"
+    ],
+    "conclusions": [
+      "Practical infrastructure for large-scale modeling"
+    ],
+    "contributions": [
+      "Massive structural expansion via AlphaFold predictions"
+    ],
+    "future_work": [
+      "Periodic updates and complex coverage"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Prediction confidence varies by region"
+    ],
+    "source_type": "dataset",
+    "summary": "AFDB provides large-scale predicted structures useful for broad candidate feature extraction and negative-set construction.",
+    "title": "AlphaFold Protein Structure Database massively expands the structural coverage of protein-sequence space",
+    "url": "https://doi.org/10.1093/nar/gkab1061",
+    "year": 2022
+  },
+  {
+    "assumptions": [
+      "Joint complex modeling improves downstream binding reasoning"
+    ],
+    "authors": [
+      "Abramson J",
+      "et al."
+    ],
+    "citation": "Abramson J et al. Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature 630(8016):493-500 (2024). https://doi.org/10.1038/s41586-024-07487-w",
+    "claims": [
+      "Substantially improved accuracy across interaction classes including protein-ligand tasks"
+    ],
+    "conclusions": [
+      "Single framework can model broad biomolecular complexes at high accuracy"
+    ],
+    "contributions": [
+      "Unified high-accuracy biomolecular interaction structure prediction"
+    ],
+    "future_work": [
+      "Model calibration and integration in experimental design loops"
+    ],
+    "key_equations": [
+      "L_diff = E[||epsilon - epsilon_theta(x_t,t)||^2]"
+    ],
+    "limitations": [
+      "Confidence calibration and chemistry-space edge cases remain active areas"
+    ],
+    "source_type": "paper",
+    "summary": "Introduces AlphaFold 3, a diffusion-based unified model for proteins, nucleic acids, small molecules, ions, and modified residues with improved protein-ligand interaction accuracy.",
+    "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+    "url": "https://doi.org/10.1038/s41586-024-07487-w",
+    "year": 2024
+  },
+  {
+    "assumptions": [
+      "Ligand-specific conformational landscapes can be learned from structural corpora"
+    ],
+    "authors": [
+      "Lu W",
+      "et al."
+    ],
+    "citation": "Lu W et al. DynamicBind: predicting ligand-specific protein-ligand complex structure with a deep equivariant generative model. Nature Communications 15 (2024). https://doi.org/10.1038/s41467-024-45461-2",
+    "claims": [
+      "State-of-the-art docking and virtual-screening performance on reported benchmarks"
+    ],
+    "conclusions": [
+      "Ligand-aware generative docking is useful for flexible-target binding prediction"
+    ],
+    "contributions": [
+      "Generative docking method capturing conformational adaptation"
+    ],
+    "future_work": [
+      "Prospective benchmarking on unseen chemistry and targets"
+    ],
+    "key_equations": [
+      "Score/diffusion objective over SE(3)-equivariant coordinates"
+    ],
+    "limitations": [
+      "Benchmark-centric evaluation and potential target distribution shift"
+    ],
+    "source_type": "paper",
+    "summary": "Presents ligand-conditioned equivariant diffusion docking that recovers ligand-specific conformations from apo structures and supports virtual screening.",
+    "title": "DynamicBind: predicting ligand-specific protein-ligand complex structure with a deep equivariant generative model",
+    "url": "https://doi.org/10.1038/s41467-024-45461-2",
+    "year": 2024
+  },
+  {
+    "assumptions": [
+      "Intermolecular distance learning captures side-chain flexibility effects"
+    ],
+    "authors": [
+      "Masters MR",
+      "Mahmoud AH",
+      "Wei Y",
+      "Lill MA"
+    ],
+    "citation": "Masters MR et al. Deep Learning Model for Efficient Protein-Ligand Docking with Implicit Side-Chain Flexibility. J Chem Inf Model 63(6):1695-1707 (2023). https://doi.org/10.1021/acs.jcim.2c01436",
+    "claims": [
+      "Improves flexible docking efficiency with competitive pose quality"
+    ],
+    "conclusions": [
+      "Distance-learning docking is practical for higher-throughput pipelines"
+    ],
+    "contributions": [
+      "Efficient flexible docking architecture for structure-based screening"
+    ],
+    "future_work": [
+      "Hybridizing with explicit conformational sampling"
+    ],
+    "key_equations": [
+      "EDM-based pose reconstruction objective"
+    ],
+    "limitations": [
+      "May underperform on extreme induced-fit transitions"
+    ],
+    "source_type": "paper",
+    "summary": "Introduces a docking model based on intermolecular distance-matrix prediction to handle protein flexibility without expensive iterative search.",
+    "title": "Deep Learning Model for Efficient Protein-Ligand Docking with Implicit Side-Chain Flexibility",
+    "url": "https://doi.org/10.1021/acs.jcim.2c01436",
+    "year": 2023
+  },
+  {
+    "assumptions": [
+      "Complex stability and glucose-triggered dissociation scale across species"
+    ],
+    "authors": [
+      "Zhang X",
+      "et al."
+    ],
+    "citation": "Poly(bis(guanidinium)-oxazoline)-Insulin Complex Exerting Long-Acting Glucose-Responsive Insulin Release in Mice and Minipigs. J Am Chem Soc 147(44):40576-40589 (2025). https://doi.org/10.1021/jacs.5c12605",
+    "claims": [
+      "Sustained glucose-responsive release supports prolonged glycemic control"
+    ],
+    "conclusions": [
+      "Polymer complexation can improve both duration and responsiveness"
+    ],
+    "contributions": [
+      "Long-acting polymer-insulin design with large-animal evidence"
+    ],
+    "future_work": [
+      "Dose optimization and clinical translation studies"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Full translational safety and manufacturability still unresolved"
+    ],
+    "source_type": "paper",
+    "summary": "Reports a polymer-insulin complex with glucose-responsive long-acting glycemic control demonstrated in mice and minipigs.",
+    "title": "Poly(bis(guanidinium)-oxazoline)-Insulin Complex Exerting Long-Acting Glucose-Responsive Insulin Release in Mice and Minipigs",
+    "url": "https://doi.org/10.1021/jacs.5c12605",
+    "year": 2025
+  },
+  {
+    "assumptions": [
+      "Rodent transdermal kinetics are informative for future human translation"
+    ],
+    "authors": [
+      "Jiang C",
+      "An Y",
+      "Yang J",
+      "Hu J",
+      "Wang W",
+      "Jiang X",
+      "Ye J"
+    ],
+    "citation": "Jiang C et al. A glucose-responsive transdermal insulin delivery patch using PBA-based hydrogel and CAGE. Materials & Design 254:114086 (2025). https://doi.org/10.1016/j.matdes.2025.114086",
+    "claims": [
+      "Demonstrates rapid glucose control and sustained response in animal model"
+    ],
+    "conclusions": [
+      "Transdermal glucose-responsive patches remain a viable non-invasive route"
+    ],
+    "contributions": [
+      "Combines glucose-responsive chemistry with permeation-enhancing ionic liquid"
+    ],
+    "future_work": [
+      "Large-animal studies and human safety evaluation"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Species translation and long-term wear studies are pending"
+    ],
+    "source_type": "paper",
+    "summary": "Open-access study describing a PBA hydrogel plus choline geranate patch with glucose-triggered insulin release and improved transdermal permeability in diabetic rats.",
+    "title": "A glucose-responsive transdermal insulin delivery patch using PBA-based hydrogel and CAGE",
+    "url": "https://doi.org/10.1016/j.matdes.2025.114086",
+    "year": 2025
+  },
+  {
+    "assumptions": [
+      "Dual-module polymer responses can provide safer glycemic control"
+    ],
+    "authors": [
+      "Wang Z",
+      "et al."
+    ],
+    "citation": "Wang Z et al. Dual self-regulated delivery of insulin and glucagon by a hybrid patch. Proc Natl Acad Sci USA 117(47):29512-29517 (2020). https://doi.org/10.1073/pnas.2011099117",
+    "claims": [
+      "Reduced hypoglycemia risk while controlling hyperglycemia in preclinical model"
+    ],
+    "conclusions": [
+      "Dual-hormone responsive delivery can broaden safety margins"
+    ],
+    "contributions": [
+      "Counterregulatory insulin-glucagon closed-loop patch design"
+    ],
+    "future_work": [
+      "Scale-up and controlled human testing"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Clinical translation and chronic use remain unproven"
+    ],
+    "source_type": "paper",
+    "summary": "Demonstrates a dual-hormone responsive patch that co-regulates hyperglycemia and hypoglycemia risk in a type 1 diabetic mouse model.",
+    "title": "Dual self-regulated delivery of insulin and glucagon by a hybrid patch",
+    "url": "https://doi.org/10.1073/pnas.2011099117",
+    "year": 2020
+  },
+  {
+    "assumptions": [
+      "Cross-platform comparisons can guide material prioritization"
+    ],
+    "authors": [
+      "Pal S"
+    ],
+    "citation": "Pal S. Glucose-Responsive Materials for Smart Insulin Delivery: From Protein-Based to Protein-Free Design. ACS Materials Au 5(2):239-252 (2025). https://doi.org/10.1021/acsmaterialsau.4c00138",
+    "claims": [
+      "Protein-free designs may mitigate stability constraints of enzyme/protein systems"
+    ],
+    "conclusions": [
+      "Design trends are shifting toward more stable, scalable glucose-responsive chemistries"
+    ],
+    "contributions": [
+      "Consolidates modern glucose-responsive material design space including PBA-focused systems"
+    ],
+    "future_work": [
+      "Standardized translational metrics and long-term stability datasets"
+    ],
+    "key_equations": [],
+    "limitations": [
+      "Perspective-level synthesis; no new primary experiments"
+    ],
+    "source_type": "paper",
+    "summary": "Perspective review covering protein-based and protein-free glucose-responsive materials and translational constraints for smart insulin systems.",
+    "title": "Glucose-Responsive Materials for Smart Insulin Delivery: From Protein-Based to Protein-Free Design",
+    "url": "https://doi.org/10.1021/acsmaterialsau.4c00138",
+    "year": 2025
+  }
+]

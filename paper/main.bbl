@@ -1,0 +1,262 @@
+\begin{thebibliography}{34}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abramson et~al.(2024)]{src38}
+J.~Abramson et~al.
+\newblock Accurate structure prediction of biomolecular interactions with
+  alphafold 3.
+\newblock \emph{Nature}, 2024.
+\newblock \doi{10.1038/s41586-024-07487-w}.
+\newblock URL \url{https://doi.org/10.1038/s41586-024-07487-w}.
+
+\bibitem[Baek et~al.(2021)]{src17}
+M.~Baek et~al.
+\newblock Accurate prediction of protein structures and interactions using a
+  three-track neural network.
+\newblock \emph{Science}, 2021.
+\newblock \doi{10.1126/science.abj8754}.
+\newblock URL \url{https://doi.org/10.1126/science.abj8754}.
+
+\bibitem[Burley et~al.(2024)]{src32}
+S.~K. Burley et~al.
+\newblock Rcsb protein data bank: 2024 update.
+\newblock \emph{Nucleic Acids Research}, 2024.
+\newblock \doi{10.1093/nar/gkad996}.
+\newblock URL \url{https://doi.org/10.1093/nar/gkad996}.
+
+\bibitem[Chen et~al.(2025)]{src11}
+Y.~Chen et~al.
+\newblock Glucose-responsive insulin: Current perspectives and new horizons.
+\newblock \emph{RSC Pharmaceutics}, 2025.
+\newblock \doi{10.1039/D5PM00083A}.
+\newblock URL \url{https://doi.org/10.1039/D5PM00083A}.
+
+\bibitem[Consortium(2023)]{src31}
+The~UniProt Consortium.
+\newblock Uniprot: the universal protein knowledgebase in 2023.
+\newblock \emph{Nucleic Acids Research}, 2023.
+\newblock \doi{10.1093/nar/gkac1081}.
+\newblock URL \url{https://doi.org/10.1093/nar/gkac1081}.
+
+\bibitem[Corso et~al.(2022)]{src24}
+G.~Corso et~al.
+\newblock Equivariant diffusion for molecular docking (diffdock), 2022.
+\newblock URL \url{https://arxiv.org/abs/2210.01776}.
+
+\bibitem[Dauparas et~al.(2022)]{src18}
+J.~Dauparas et~al.
+\newblock Robust deep learning-based protein sequence design using proteinmpnn.
+\newblock \emph{Science}, 2022.
+\newblock \doi{10.1126/science.add2187}.
+\newblock URL \url{https://doi.org/10.1126/science.add2187}.
+
+\bibitem[Deng et~al.(2024)]{src02}
+C.~Deng et~al.
+\newblock Recent progress in glucose-responsive insulin.
+\newblock \emph{Diabetes}, 2024.
+\newblock URL
+  \url{https://diabetesjournals.org/diabetes/article/73/9/1377/156832/Recent-Progress-in-Glucose-Responsive-Insulin}.
+
+\bibitem[Durrant et~al.(2020)]{src28}
+J.~Durrant et~al.
+\newblock Rosenet: Improving binding affinity prediction by integrating
+  molecular mechanics energies.
+\newblock \emph{Journal of Chemical Information and Modeling}, 2020.
+\newblock \doi{10.1021/acs.jcim.0c00075}.
+\newblock URL \url{https://doi.org/10.1021/acs.jcim.0c00075}.
+
+\bibitem[Gilson et~al.(2024)]{src30}
+M.~K. Gilson et~al.
+\newblock Bindingdb in 2024: public data for medicinal chemistry and
+  computational drug discovery.
+\newblock \emph{Nucleic Acids Research}, 2024.
+\newblock \doi{10.1093/nar/gkad960}.
+\newblock URL \url{https://doi.org/10.1093/nar/gkad960}.
+
+\bibitem[Gu et~al.(2016)]{src10}
+Z.~Gu et~al.
+\newblock Glucose-responsive insulin delivery: A vision for improved diabetes
+  management.
+\newblock \emph{Annals of Biomedical Engineering}, 2016.
+\newblock \doi{10.1007/s10439-016-1578-6}.
+\newblock URL \url{https://doi.org/10.1007/s10439-016-1578-6}.
+
+\bibitem[Hollingsworth \& Dror(2018)Hollingsworth and Dror]{src36}
+S.~A. Hollingsworth and R.~O. Dror.
+\newblock Molecular dynamics simulations in drug discovery and pharmaceutical
+  development.
+\newblock \emph{Current Opinion in Structural Biology}, 2018.
+\newblock \doi{10.1016/j.sbi.2018.11.005}.
+\newblock URL \url{https://doi.org/10.1016/j.sbi.2018.11.005}.
+
+\bibitem[Jiang et~al.(2025)Jiang, An, Yang, Hu, Wang, Jiang, and Ye]{src42}
+C.~Jiang, Y.~An, J.~Yang, J.~Hu, W.~Wang, X.~Jiang, and J.~Ye.
+\newblock A glucose-responsive transdermal insulin delivery patch using
+  pba-based hydrogel and cage.
+\newblock \emph{Materials and Design}, 2025.
+\newblock \doi{10.1016/j.matdes.2025.114086}.
+\newblock URL \url{https://doi.org/10.1016/j.matdes.2025.114086}.
+
+\bibitem[Jim{\'e}nez et~al.(2018)]{src27}
+J.~Jim{\'e}nez et~al.
+\newblock Kdeep: Protein-ligand absolute binding affinity prediction via
+  3d-cnn.
+\newblock \emph{Journal of Chemical Information and Modeling}, 2018.
+\newblock \doi{10.1021/acs.jcim.7b00650}.
+\newblock URL \url{https://doi.org/10.1021/acs.jcim.7b00650}.
+
+\bibitem[Johansen et~al.(2024)]{src13}
+N.~J. Johansen et~al.
+\newblock Week-long normoglycaemia in diabetic mice and minipigs by a
+  glucose-responsive insulin complex.
+\newblock \emph{Nature Nanotechnology}, 2024.
+\newblock URL \url{https://www.nature.com/articles/s41565-024-01764-5}.
+
+\bibitem[Jumper et~al.(2021)]{src16}
+J.~Jumper et~al.
+\newblock Highly accurate protein structure prediction with alphafold.
+\newblock \emph{Nature}, 2021.
+\newblock \doi{10.1038/s41586-021-03819-2}.
+\newblock URL \url{https://doi.org/10.1038/s41586-021-03819-2}.
+
+\bibitem[Krishna et~al.(2024)]{src23}
+R.~Krishna et~al.
+\newblock Generalized biomolecular modeling and design with rosettafold
+  all-atom.
+\newblock \emph{Science}, 2024.
+\newblock \doi{10.1126/science.adl2528}.
+\newblock URL \url{https://doi.org/10.1126/science.adl2528}.
+
+\bibitem[Lau et~al.(2024)]{src01}
+J.~Lau et~al.
+\newblock Molecular design of an insulin with glucose-dependent solubility and
+  action.
+\newblock \emph{Nature}, 2024.
+\newblock \doi{10.1038/s41586-024-08042-3}.
+\newblock URL \url{https://doi.org/10.1038/s41586-024-08042-3}.
+
+\bibitem[Li et~al.(2024)]{src12}
+X.~Li et~al.
+\newblock A smart insulin with glucose-responsive dynamics in diabetic models.
+\newblock \emph{Nature Biomedical Engineering}, 2024.
+\newblock URL \url{https://www.nature.com/articles/s41551-023-01138-7}.
+
+\bibitem[Lin et~al.(2023)]{src33}
+Z.~Lin et~al.
+\newblock Evolutionary-scale prediction of atomic-level protein structure with
+  a language model.
+\newblock \emph{Science}, 2023.
+\newblock \doi{10.1126/science.ade2574}.
+\newblock URL \url{https://doi.org/10.1126/science.ade2574}.
+
+\bibitem[Liu et~al.(2015)]{src29}
+Z.~Liu et~al.
+\newblock Pdbbind: a comprehensive database for benchmark and prediction.
+\newblock \emph{Bioinformatics}, 2015.
+\newblock \doi{10.1093/bioinformatics/btv543}.
+\newblock URL \url{https://doi.org/10.1093/bioinformatics/btv543}.
+
+\bibitem[Lu et~al.(2024)]{src39}
+W.~Lu et~al.
+\newblock Dynamicbind: predicting ligand-specific protein-ligand complex
+  structure with a deep equivariant generative model.
+\newblock \emph{Nature Communications}, 2024.
+\newblock \doi{10.1038/s41467-024-45461-2}.
+\newblock URL \url{https://doi.org/10.1038/s41467-024-45461-2}.
+
+\bibitem[Luo et~al.(2024)]{src15}
+J.~Luo et~al.
+\newblock Molecular engineering roadmaps for glucose-responsive insulin.
+\newblock \emph{The Innovation Medicine}, 2024.
+\newblock \doi{10.59717/j.xinn-med.2024.100108}.
+\newblock URL \url{https://doi.org/10.59717/j.xinn-med.2024.100108}.
+
+\bibitem[Masters et~al.(2023)Masters, Mahmoud, Wei, and Lill]{src40}
+M.~R. Masters, A.~H. Mahmoud, Y.~Wei, and M.~A. Lill.
+\newblock Deep learning model for efficient protein-ligand docking with
+  implicit side-chain flexibility.
+\newblock \emph{Journal of Chemical Information and Modeling}, 2023.
+\newblock \doi{10.1021/acs.jcim.2c01436}.
+\newblock URL \url{https://doi.org/10.1021/acs.jcim.2c01436}.
+
+\bibitem[Matsumoto et~al.(2013)]{src03}
+A.~Matsumoto et~al.
+\newblock A synthetic glucose signal amplifier using boronic acid for
+  self-regulated insulin delivery.
+\newblock \emph{ACS Nano}, 2013.
+\newblock \doi{10.1021/nn401617u}.
+\newblock URL \url{https://doi.org/10.1021/nn401617u}.
+
+\bibitem[McNutt et~al.(2021)]{src26}
+A.~T. McNutt et~al.
+\newblock Gnina 1.0: molecular docking with deep learning.
+\newblock \emph{Journal of Chemical Information and Modeling}, 2021.
+\newblock \doi{10.1021/acs.jcim.0c00675}.
+\newblock URL \url{https://doi.org/10.1021/acs.jcim.0c00675}.
+
+\bibitem[Miyata et~al.(2014)]{src06}
+T.~Miyata et~al.
+\newblock Networked glucose-responsive polymer for insulin release.
+\newblock \emph{Biomacromolecules}, 2014.
+\newblock \doi{10.1021/bm500364a}.
+\newblock URL \url{https://doi.org/10.1021/bm500364a}.
+
+\bibitem[Pal(2025)]{src44}
+S.~Pal.
+\newblock Glucose-responsive materials for smart insulin delivery: From
+  protein-based to protein-free design.
+\newblock \emph{ACS Materials Au}, 2025.
+\newblock \doi{10.1021/acsmaterialsau.4c00138}.
+\newblock URL \url{https://doi.org/10.1021/acsmaterialsau.4c00138}.
+
+\bibitem[Ravaine et~al.(2017)Ravaine, Ancla, and Catargi]{src09}
+V.~Ravaine, C.~Ancla, and B.~Catargi.
+\newblock Designing glucose-responsive insulin therapeutics.
+\newblock \emph{Nature Chemistry}, 2017.
+\newblock \doi{10.1038/nchem.2857}.
+\newblock URL \url{https://doi.org/10.1038/nchem.2857}.
+
+\bibitem[Tai et~al.(2015)]{src04}
+W.~Tai et~al.
+\newblock An insulin-encapsulation system for potential use in the treatment of
+  diabetes.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 2015.
+\newblock \doi{10.1073/pnas.1505405112}.
+\newblock URL \url{https://doi.org/10.1073/pnas.1505405112}.
+
+\bibitem[Varadi et~al.(2022)]{src37}
+M.~Varadi et~al.
+\newblock Alphafold protein structure database massively expands the structural
+  coverage of protein-sequence space.
+\newblock \emph{Nucleic Acids Research}, 2022.
+\newblock \doi{10.1093/nar/gkab1061}.
+\newblock URL \url{https://doi.org/10.1093/nar/gkab1061}.
+
+\bibitem[Wang et~al.(2020)]{src43}
+Z.~Wang et~al.
+\newblock Dual self-regulated delivery of insulin and glucagon by a hybrid
+  patch.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 2020.
+\newblock \doi{10.1073/pnas.2011099117}.
+\newblock URL \url{https://doi.org/10.1073/pnas.2011099117}.
+
+\bibitem[Watson et~al.(2023)]{src19}
+J.~L. Watson et~al.
+\newblock De novo design of protein structure and function with rfdiffusion.
+\newblock \emph{Nature}, 2023.
+\newblock \doi{10.1038/s41586-023-06415-8}.
+\newblock URL \url{https://doi.org/10.1038/s41586-023-06415-8}.
+
+\bibitem[Zhang et~al.(2025)]{src41}
+X.~Zhang et~al.
+\newblock Poly(bis(guanidinium)-oxazoline)-insulin complex exerting long-acting
+  glucose-responsive insulin release in mice and minipigs.
+\newblock \emph{Journal of the American Chemical Society}, 2025.
+\newblock \doi{10.1021/jacs.5c12605}.
+\newblock URL \url{https://doi.org/10.1021/jacs.5c12605}.
+
+\end{thebibliography}

@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "spec_exists": true,
+    "logistic_derivative_nonpositive_form": true,
+    "monotonic_penalties_nonnegative": true,
+    "utility_linear_in_beta": true,
+    "rerank_penalty_sign_u": true,
+    "rerank_penalty_sign_var": true
+  },
+  "symbolic_identity_pass_rate": 1.0,
+  "theorem_assumption_satisfaction_rate": 1.0
+}

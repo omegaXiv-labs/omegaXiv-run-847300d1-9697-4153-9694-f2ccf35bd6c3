@@ -1,0 +1,11 @@
+# Direct runtime dependencies
+numpy>=1.26,<3
+pandas>=2.1,<3
+sympy>=1.12,<2
+
+# Flattened transitive runtime dependencies (required_by hints)
+python-dateutil>=2.8,<3  # required_by: pandas
+pytz>=2024.1  # required_by: pandas
+tzdata>=2024.1  # required_by: pandas
+mpmath>=1.3,<2  # required_by: sympy
+six>=1.16,<2  # required_by: python-dateutil

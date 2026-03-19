@@ -1,0 +1,71 @@
+{
+  "generated_from": [
+    "metrics_summary.csv",
+    "acceptance_checks.csv",
+    "confirmatory_regime_analysis.csv"
+  ],
+  "audit_rows": [
+    {
+      "check_id": "h1_spearman_gain_ge_0p10",
+      "value": 0.240379,
+      "threshold": ">=0.10",
+      "passed": true,
+      "evidence": "metrics_summary.csv"
+    },
+    {
+      "check_id": "h1_monotonicity_reduction_ge_0p30",
+      "value": 0.685503,
+      "threshold": ">=0.30",
+      "passed": true,
+      "evidence": "metrics_summary.csv"
+    },
+    {
+      "check_id": "h3_fpr_drop_ge_0p25",
+      "value": 0.453977,
+      "threshold": ">=0.25",
+      "passed": true,
+      "evidence": "metrics_summary.csv"
+    },
+    {
+      "check_id": "h4_nondominated_gain_ge_0p25",
+      "value": 0.788005,
+      "threshold": ">=0.25",
+      "passed": true,
+      "evidence": "metrics_summary.csv"
+    },
+    {
+      "check_id": "stress_counterexample_failure_le_0p20",
+      "value": 0.169563,
+      "threshold": "<=0.20",
+      "passed": true,
+      "evidence": "metrics_summary.csv"
+    },
+    {
+      "check_id": "stress_tradeoff_gap_le_0p15",
+      "value": 0.118427,
+      "threshold": "<=0.15",
+      "passed": true,
+      "evidence": "metrics_summary.csv"
+    },
+    {
+      "check_id": "planned_tradeoff_criterion_covered_in_acceptance_table",
+      "value": 0,
+      "threshold": "==1",
+      "passed": false,
+      "evidence": "acceptance_checks.csv",
+      "notes": "expected explicit criterion for robustness_performance_tradeoff_gap <= 0.15"
+    },
+    {
+      "check_id": "confirmatory_tradeoff_gap_mean_descriptive",
+      "value": 0.165401,
+      "threshold": "descriptive_only",
+      "passed": true,
+      "evidence": "confirmatory_regime_analysis.csv"
+    }
+  ],
+  "summary": {
+    "all_core_checks_passed": true,
+    "acceptance_table_coverage_gap_for_tradeoff": true,
+    "confirmatory_tradeoff_gap_mean": 0.165401
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "abstract": "Type 1 diabetes requires lifelong insulin replacement because pancreatic \u03b2-cells cannot regulate glucose levels. Current insulin therapies deliver fixed pharmacokinetic responses and cannot dynamically adapt to changing blood glucose, which exposes patients to both hypoglycemia and hyperglycemia. A long-standing objective in diabetes research is therefore the development of glucose-responsive insulin (GRI) whose activity increases when glucose levels rise and attenuates when glucose falls.\n\nRecent advances have demonstrated partial feasibility of this concept. Several approaches have been explored, including glucose-binding polymers, phenylboronic-acid-based systems, glucose-oxidase responsive delivery materials, and engineered insulin analogs whose activity depends on glucose-dependent interactions. In 2024, a molecular insulin analog reported by Novo Nordisk showed glucose-dependent bioactivity within a physiologically relevant glucose range in vivo, representing the most convincing demonstration to date that insulin itself can be engineered to exhibit glucose-modulated activity. Despite these advances, glucose-responsive insulin remains an open scientific and translational challenge because candidate systems often suffer from instability, weak specificity, or insufficient modulation of insulin receptor activation.\n\nThis project frames the discovery of glucose-responsive insulin as a computational molecular binding problem in which machine learning and bioinformatics models are used to predict how insulin variants or insulin-binding complexes change their functional activity in the presence of glucose. The objective is to identify molecular designs in which glucose concentration modulates insulin receptor accessibility or binding affinity, producing an intrinsic feedback mechanism that stabilizes blood glucose levels.",
+  "artifacts": [
+    {
+      "kind": "paper_pdf",
+      "label": "Paper PDF",
+      "uri": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-847300d1-9697-4153-9694-f2ccf35bd6c3/paper-v1/paper/main.pdf"
+    },
+    {
+      "kind": "paper_thumbnail",
+      "label": "Paper Thumbnail",
+      "uri": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-847300d1-9697-4153-9694-f2ccf35bd6c3/paper-v1/paper/thumbnail.png"
+    },
+    {
+      "kind": "latex_sources",
+      "label": "LaTeX Sources",
+      "uri": "https://github.com/omegaXiv-labs/omegaXiv-run-847300d1-9697-4153-9694-f2ccf35bd6c3/blob/paper-v1/paper/main.tex"
+    },
+    {
+      "kind": "sources",
+      "label": "Sources",
+      "uri": "https://github.com/omegaXiv-labs/omegaXiv-run-847300d1-9697-4153-9694-f2ccf35bd6c3/blob/paper-v1/sources/sources.json"
+    }
+  ],
+  "compute_budget": "1 APU, 128GB, 2 GPUs",
+  "constraints": [
+    "Compute budget constrained to 1 APU, 128GB, 2 GPUs.",
+    "Target deadline is 2026-03-14.",
+    "Scope excludes full clinical drug discovery; focus is computational filtering/prioritization.",
+    "Two related links were inaccessible during materialization (HTTP 403), so their full content was unavailable for intake."
+  ],
+  "context_id": "847300d1-9697-4153-9694-f2ccf35bd6c3",
+  "created_at": "2026-03-14T17:56:02.961217+00:00",
+  "difficulty": "Frontier",
+  "domain": "Computational Biology",
+  "evaluation_plan": "Evaluate candidate designs by predicted glucose-conditional activity profile and receptor-binding modulation across physiologically relevant glucose ranges (explicitly comparing low vs normal vs high glucose states), prioritizing candidates with low predicted activity in hypoglycemia and increased activity under hyperglycemia. Track rank-based candidate selection outputs suitable for downstream experimental validation.",
+  "expected_artifacts": [
+    "Paper",
+    "Code",
+    "Model",
+    "Package"
+  ],
+  "full_description": "The project targets computational discovery of glucose-responsive insulin designs by modeling insulin-centered molecular systems where ambient glucose changes effective insulin receptor engagement. The user frames candidate mechanisms as glucose-dependent competitive binding, glucose-sensitive conformational switching, or reversible shielding/exposure of receptor-binding interfaces. Candidate designs are represented via insulin analog structural features, attached motif chemistry, and interaction energies with glucose and insulin receptor, then scored by machine learning for conditional activity across glycemic states.\n\nResource-informed context: the provided Nature 2024 article (s41586-024-08042-3) reports an insulin conjugate (NNC2215) with reversible glucose-sensitive behavior and a reported increase in receptor affinity from 3 to 20 mM glucose, supporting feasibility for receptor-modulated glucose responsiveness and motivating affinity-conditioned modeling targets. The provided Nature 2021 article (s41586-021-03819-2) is not diabetes-specific, but provides methodological grounding for structure-prediction-driven feature extraction and confidence-aware protein modeling workflows relevant to insulin variant representation.\n\nScope remains preclinical/computational prioritization rather than full clinical drug discovery: identify structural and interaction patterns correlated with low activity in hypoglycemia, moderate activity in normoglycemia, and strong activity in hyperglycemia, to prioritize candidates for later wet-lab testing.",
+  "goals": [
+    "Model glucose-dependent modulation of insulin receptor accessibility or binding affinity for insulin-centered molecular designs.",
+    "Train ML/bioinformatics models that predict conditional insulin activity across low-, normal-, and high-glucose environments.",
+    "Identify molecular configurations whose predicted activity profile attenuates hypoglycemia risk while preserving hyperglycemia control.",
+    "Generate a ranked computational shortlist of glucose-responsive insulin candidates for experimental follow-up."
+  ],
+  "key_terms": [
+    "glucose-responsive insulin",
+    "type 1 diabetes",
+    "insulin receptor affinity",
+    "glucose-dependent bioactivity",
+    "conditional activity score",
+    "protein engineering",
+    "molecular binding thermodynamics",
+    "conformational switch",
+    "insulin analog",
+    "bioinformatics",
+    "structure prediction",
+    "hypoglycemia attenuation"
+  ],
+  "original_problem": {
+    "compute_budget": "1 APU, 128GB, 2 GPUs",
+    "constraints": [
+      "Compute budget constrained to 1 APU, 128GB, 2 GPUs.",
+      "Target deadline is 2026-03-14.",
+      "Scope excludes full clinical drug discovery; focus is computational filtering/prioritization.",
+      "Two related links were inaccessible during materialization (HTTP 403), so their full content was unavailable for intake."
+    ],
+    "difficulty": "Frontier",
+    "domain": "Computational Biology",
+    "evaluation_plan": "Evaluate candidate designs by predicted glucose-conditional activity profile and receptor-binding modulation across physiologically relevant glucose ranges (explicitly comparing low vs normal vs high glucose states), prioritizing candidates with low predicted activity in hypoglycemia and increased activity under hyperglycemia. Track rank-based candidate selection outputs suitable for downstream experimental validation.",
+    "expected_artifacts": [
+      "Paper",
+      "Code",
+      "Model",
+      "Package"
+    ],
+    "full_description": "The project targets computational discovery of glucose-responsive insulin designs by modeling insulin-centered molecular systems where ambient glucose changes effective insulin receptor engagement. The user frames candidate mechanisms as glucose-dependent competitive binding, glucose-sensitive conformational switching, or reversible shielding/exposure of receptor-binding interfaces. Candidate designs are represented via insulin analog structural features, attached motif chemistry, and interaction energies with glucose and insulin receptor, then scored by machine learning for conditional activity across glycemic states.\n\nResource-informed context: the provided Nature 2024 article (s41586-024-08042-3) reports an insulin conjugate (NNC2215) with reversible glucose-sensitive behavior and a reported increase in receptor affinity from 3 to 20 mM glucose, supporting feasibility for receptor-modulated glucose responsiveness and motivating affinity-conditioned modeling targets. The provided Nature 2021 article (s41586-021-03819-2) is not diabetes-specific, but provides methodological grounding for structure-prediction-driven feature extraction and confidence-aware protein modeling workflows relevant to insulin variant representation.\n\nScope remains preclinical/computational prioritization rather than full clinical drug discovery: identify structural and interaction patterns correlated with low activity in hypoglycemia, moderate activity in normoglycemia, and strong activity in hyperglycemia, to prioritize candidates for later wet-lab testing.",
+    "goals": [
+      "Model glucose-dependent modulation of insulin receptor accessibility or binding affinity for insulin-centered molecular designs.",
+      "Train ML/bioinformatics models that predict conditional insulin activity across low-, normal-, and high-glucose environments.",
+      "Identify molecular configurations whose predicted activity profile attenuates hypoglycemia risk while preserving hyperglycemia control.",
+      "Generate a ranked computational shortlist of glucose-responsive insulin candidates for experimental follow-up."
+    ],
+    "key_terms": [
+      "glucose-responsive insulin",
+      "type 1 diabetes",
+      "insulin receptor affinity",
+      "glucose-dependent bioactivity",
+      "conditional activity score",
+      "protein engineering",
+      "molecular binding thermodynamics",
+      "conformational switch",
+      "insulin analog",
+      "bioinformatics",
+      "structure prediction",
+      "hypoglycemia attenuation"
+    ],
+    "problem_type": "Open Question",
+    "related_links": [
+      "https://www.nature.com/articles/s41586-024-08042-3?utm_source=chatgpt.com",
+      "https://diabetesjournals.org/diabetes/article-abstract/73/9/1377/156832/Recent-Progress-in-Glucose-Responsive-Insulin?redirectedFrom=fulltext&utm_source=chatgpt.com",
+      "https://pubs.acs.org/doi/10.1021/acsmaterialsau.4c00138?utm_source=chatgpt.com",
+      "https://www.nature.com/articles/s41586-021-03819-2"
+    ],
+    "request_text": "Title: Glucose-Responsive Insulin Design via Machine Learning and Molecular Binding Modeling\nAbstract: Type 1 diabetes requires lifelong insulin replacement because pancreatic \u03b2-cells cannot regulate glucose levels. Current insulin therapies deliver fixed pharmacokinetic responses and cannot dynamically adapt to changing blood glucose, which exposes patients to both hypoglycemia and hyperglycemia. A long-standing objective in diabetes research is therefore the development of glucose-responsive insulin (GRI) whose activity increases when glucose levels rise and attenuates when glucose falls.\n\nRecent advances have demonstrated partial feasibility of this concept. Several approaches have been explored, including glucose-binding polymers, phenylboronic-acid-based systems, glucose-oxidase responsive delivery materials, and engineered insulin analogs whose activity depends on glucose-dependent interactions. In 2024, a molecular insulin analog reported by Novo Nordisk showed glucose-dependent bioactivity within a physiologically relevant glucose range in vivo, representing the most convincing demonstration to date that insulin itself can be engineered to exhibit glucose-modulated activity. Despite these advances, glucose-responsive insulin remains an open scientific and translational challenge because candidate systems often suffer from instability, weak specificity, or insufficient modulation of insulin receptor activation.\n\nThis project frames the discovery of glucose-responsive insulin as a computational molecular binding problem in which machine learning and bioinformatics models are used to predict how insulin variants or insulin-binding complexes change their functional activity in the presence of glucose. The objective is to identify molecular designs in which glucose concentration modulates insulin receptor accessibility or binding affinity, producing an intrinsic feedback mechanism that stabilizes blood glucose levels.\nFull Description: The physiological pancreas maintains glucose homeostasis by coupling insulin secretion directly to circulating glucose concentration. In contrast, injected insulin acts independently of glucose levels and therefore requires careful external dosing. A glucose-responsive insulin would ideally display minimal receptor activation at low glucose concentrations while maintaining strong activity when glucose rises above the normal physiological range.\n\nFrom a molecular perspective, this behavior can arise if glucose influences the structural or binding state of insulin or of a molecular partner attached to it. Examples include glucose-dependent competitive binding, glucose-sensitive conformational switches, or reversible ligand systems that shield or expose the insulin receptor binding interface depending on glucose concentration. Designing such systems requires understanding how molecular interactions between insulin, glucose, and candidate binding motifs influence receptor accessibility and binding thermodynamics.\n\nThe research task is therefore to model insulin-centered molecular systems in which the presence of glucose changes the effective interaction between insulin and the insulin receptor. Each candidate design can be represented by structural features of the insulin analog, the chemistry of the attached binding motif, and predicted interaction energies with both glucose and the insulin receptor. Machine learning models can then be trained to estimate a conditional activity score that predicts how insulin function changes between low-glucose and high-glucose environments.\n\nThe central objective is to identify molecular configurations whose predicted activity curve resembles physiological insulin feedback: minimal activity under hypoglycemic conditions, moderate activity in normal glycemic ranges, and strong activity under hyperglycemia. Instead of focusing on full clinical drug discovery, the problem emphasizes the identification of structural patterns and interaction features that correlate with glucose-dependent insulin modulation. Such models could serve as computational filters that prioritize candidate molecules for experimental testing.\nProblem Type: Open Question\nDifficulty: Frontier\nDomain: Computational Biology\nOriginator: Marius-Constantin Dinu\nCompute Budget: 1 APU, 128GB, 2 GPUs\nTarget Deadline: 2026-03-14\nTags: type-1-diabetes, glucose-responsive-insulin, protein-engineering, molecular-binding, bioinformatics, insulin-receptor\nCategories: Computational Biology\nExpected Artifacts: Paper, Code, Model, Package\nRelated Links: https://www.nature.com/articles/s41586-024-08042-3?utm_source=chatgpt.com, https://diabetesjournals.org/diabetes/article-abstract/73/9/1377/156832/Recent-Progress-in-Glucose-Responsive-Insulin?redirectedFrom=fulltext&utm_source=chatgpt.com, https://pubs.acs.org/doi/10.1021/acsmaterialsau.4c00138?utm_source=chatgpt.com, https://www.nature.com/articles/s41586-021-03819-2\nDataset Links: None",
+    "tags": [
+      "type-1-diabetes",
+      "glucose-responsive-insulin",
+      "protein-engineering",
+      "molecular-binding",
+      "bioinformatics",
+      "insulin-receptor"
+    ],
+    "target_deadline": "2026-03-14"
+  },
+  "package": {
+    "artifacts": [
+      {
+        "kind": "wheel",
+        "path": "packages/gri-hybrid-ranker/dist/omegaxiv_gri_hybrid_ranker-0.1.0-py3-none-any.whl",
+        "sha256": "810adb4a0586a845b98c68d7dd3dbad42b2fd06e811ac6cbcf438c8ce2569b25",
+        "size_bytes": 10690,
+        "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-847300d1-9697-4153-9694-f2ccf35bd6c3/paper-v1/packages/gri-hybrid-ranker/dist/omegaxiv_gri_hybrid_ranker-0.1.0-py3-none-any.whl"
+      },
+      {
+        "kind": "archive",
+        "path": "packages/gri-hybrid-ranker/dist/gri-hybrid-ranker-0.1.0.tar.gz",
+        "sha256": "eec87e58da8162abbef5a377855b6a940f6c4008fe8a1ba97ccd226b9838ca83",
+        "size_bytes": 9478,
+        "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-847300d1-9697-4153-9694-f2ccf35bd6c3/paper-v1/packages/gri-hybrid-ranker/dist/gri-hybrid-ranker-0.1.0.tar.gz"
+      },
+      {
+        "kind": "other",
+        "path": "packages/gri-hybrid-ranker/packaging_manifest.json",
+        "sha256": null,
+        "size_bytes": 3454,
+        "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-847300d1-9697-4153-9694-f2ccf35bd6c3/paper-v1/packages/gri-hybrid-ranker/packaging_manifest.json"
+      },
+      {
+        "kind": "other",
+        "path": "packages/gri-hybrid-ranker/README.md",
+        "sha256": null,
+        "size_bytes": 2537,
+        "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-847300d1-9697-4153-9694-f2ccf35bd6c3/paper-v1/packages/gri-hybrid-ranker/README.md"
+      },
+      {
+        "kind": "other",
+        "path": "packages/gri-hybrid-ranker/requirements.txt",
+        "sha256": null,
+        "size_bytes": 343,
+        "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-847300d1-9697-4153-9694-f2ccf35bd6c3/paper-v1/packages/gri-hybrid-ranker/requirements.txt"
+      },
+      {
+        "kind": "other",
+        "path": "packages/gri-hybrid-ranker/dependency_graph.json",
+        "sha256": null,
+        "size_bytes": 1054,
+        "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-847300d1-9697-4153-9694-f2ccf35bd6c3/paper-v1/packages/gri-hybrid-ranker/dependency_graph.json"
+      },
+      {
+        "kind": "other",
+        "path": "packages/gri-hybrid-ranker/pyproject.toml",
+        "sha256": null,
+        "size_bytes": 1320,
+        "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-847300d1-9697-4153-9694-f2ccf35bd6c3/paper-v1/packages/gri-hybrid-ranker/pyproject.toml"
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "numpy",
+        "required_by": [
+          "gri_hybrid_ranker.pipeline",
+          "gri_hybrid_ranker.analysis"
+        ],
+        "source": "runtime",
+        "spec": ">=1.26,<3",
+        "transitive": false
+      },
+      {
+        "name": "pandas",
+        "required_by": [
+          "gri_hybrid_ranker.pipeline",
+          "gri_hybrid_ranker.analysis"
+        ],
+        "source": "runtime",
+        "spec": ">=2.1,<3",
+        "transitive": false
+      },
+      {
+        "name": "sympy",
+        "required_by": [
+          "gri_hybrid_ranker.symbolic"
+        ],
+        "source": "runtime",
+        "spec": ">=1.12,<2",
+        "transitive": false
+      },
+      {
+        "name": "matplotlib",
+        "required_by": [
+          "plot extra"
+        ],
+        "source": "optional",
+        "spec": ">=3.8,<4",
+        "transitive": false
+      },
+      {
+        "name": "seaborn",
+        "required_by": [
+          "plot extra"
+        ],
+        "source": "optional",
+        "spec": ">=0.13,<0.14",
+        "transitive": false
+      },
+      {
+        "name": "python-dateutil",
+        "required_by": [
+          "pandas"
+        ],
+        "source": "runtime",
+        "spec": ">=2.8,<3",
+        "transitive": true
+      },
+      {
+        "name": "pytz",
+        "required_by": [
+          "pandas"
+        ],
+        "source": "runtime",
+        "spec": ">=2024.1",
+        "transitive": true
+      },
+      {
+        "name": "tzdata",
+        "required_by": [
+          "pandas"
+        ],
+        "source": "runtime",
+        "spec": ">=2024.1",
+        "transitive": true
+      },
+      {
+        "name": "mpmath",
+        "required_by": [
+          "sympy"
+        ],
+        "source": "runtime",
+        "spec": ">=1.3,<2",
+        "transitive": true
+      },
+      {
+        "name": "six",
+        "required_by": [
+          "python-dateutil"
+        ],
+        "source": "runtime",
+        "spec": ">=1.16,<2",
+        "transitive": true
+      }
+    ],
+    "dependency_graph_mermaid": "graph TD\n  pkg[omegaxiv-gri-hybrid-ranker]\n  pkg --> numpy[numpy >=1.26,<3]\n  pkg --> pandas[pandas >=2.1,<3]\n  pkg --> sympy[sympy >=1.12,<2]\n  pandas --> pdate[python-dateutil >=2.8,<3]\n  pandas --> pytz[pytz >=2024.1]\n  pandas --> tzdata[tzdata >=2024.1]\n  pdate --> six[six >=1.16,<2]\n  sympy --> mpmath[mpmath >=1.3,<2]",
+    "dependency_graph_path": "packages/gri-hybrid-ranker/dependency_graph.json",
+    "dependency_graph_url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-847300d1-9697-4153-9694-f2ccf35bd6c3/paper-v1/packages/gri-hybrid-ranker/dependency_graph.json",
+    "distribution_name": "omegaxiv-gri-hybrid-ranker",
+    "handle": "gri-hybrid-ranker",
+    "handle_alternatives": [
+      "gri-tristate-ranker",
+      "insulin-hybrid-ranker"
+    ],
+    "handle_confirmed": true,
+    "import_name": "gri_hybrid_ranker",
+    "install_command": "pip install omegaxiv && ox install gri-hybrid-ranker==0.1.0",
+    "install_ready": false,
+    "install_target": "file:///app/outputs/runs/91db9a32-aae3-44e1-8814-3f362dee8ced/workspace/packages/gri-hybrid-ranker/dist/omegaxiv_gri_hybrid_ranker-0.1.0-py3-none-any.whl",
+    "manager_install_command": "pip install omegaxiv",
+    "manifest_path": "packages/gri-hybrid-ranker/packaging_manifest.json",
+    "package_type": "library",
+    "readme_path": "packages/gri-hybrid-ranker/README.md",
+    "readme_url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-847300d1-9697-4153-9694-f2ccf35bd6c3/paper-v1/packages/gri-hybrid-ranker/README.md",
+    "requirements_path": "packages/gri-hybrid-ranker/requirements.txt",
+    "requirements_url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-847300d1-9697-4153-9694-f2ccf35bd6c3/paper-v1/packages/gri-hybrid-ranker/requirements.txt",
+    "version": "0.1.0"
+  },
+  "paper_pdf_url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-847300d1-9697-4153-9694-f2ccf35bd6c3/main/paper/main.pdf",
+  "paper_thumbnail_url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-847300d1-9697-4153-9694-f2ccf35bd6c3/main/paper/thumbnail.png",
+  "parent_run_id": "847300d1-9697-4153-9694-f2ccf35bd6c3",
+  "pipeline_id": "847300d1-9697-4153-9694-f2ccf35bd6c3",
+  "preview_run_id": "91db9a32-aae3-44e1-8814-3f362dee8ced",
+  "problem_type": "Open Question",
+  "published_run_id": "91db9a32-aae3-44e1-8814-3f362dee8ced",
+  "related_links": [
+    "https://www.nature.com/articles/s41586-024-08042-3?utm_source=chatgpt.com",
+    "https://diabetesjournals.org/diabetes/article-abstract/73/9/1377/156832/Recent-Progress-in-Glucose-Responsive-Insulin?redirectedFrom=fulltext&utm_source=chatgpt.com",
+    "https://pubs.acs.org/doi/10.1021/acsmaterialsau.4c00138?utm_source=chatgpt.com",
+    "https://www.nature.com/articles/s41586-021-03819-2"
+  ],
+  "repo_commit_sha": "1d78c1e8eceb1490b14aadbc4490c81632a82fd3",
+  "repo_ref": "paper-v1",
+  "repo_url": "https://github.com/omegaXiv-labs/omegaXiv-run-847300d1-9697-4153-9694-f2ccf35bd6c3",
+  "request_text": "Title: Glucose-Responsive Insulin Design via Machine Learning and Molecular Binding Modeling\nAbstract: Type 1 diabetes requires lifelong insulin replacement because pancreatic \u03b2-cells cannot regulate glucose levels. Current insulin therapies deliver fixed pharmacokinetic responses and cannot dynamically adapt to changing blood glucose, which exposes patients to both hypoglycemia and hyperglycemia. A long-standing objective in diabetes research is therefore the development of glucose-responsive insulin (GRI) whose activity increases when glucose levels rise and attenuates when glucose falls.\n\nRecent advances have demonstrated partial feasibility of this concept. Several approaches have been explored, including glucose-binding polymers, phenylboronic-acid-based systems, glucose-oxidase responsive delivery materials, and engineered insulin analogs whose activity depends on glucose-dependent interactions. In 2024, a molecular insulin analog reported by Novo Nordisk showed glucose-dependent bioactivity within a physiologically relevant glucose range in vivo, representing the most convincing demonstration to date that insulin itself can be engineered to exhibit glucose-modulated activity. Despite these advances, glucose-responsive insulin remains an open scientific and translational challenge because candidate systems often suffer from instability, weak specificity, or insufficient modulation of insulin receptor activation.\n\nThis project frames the discovery of glucose-responsive insulin as a computational molecular binding problem in which machine learning and bioinformatics models are used to predict how insulin variants or insulin-binding complexes change their functional activity in the presence of glucose. The objective is to identify molecular designs in which glucose concentration modulates insulin receptor accessibility or binding affinity, producing an intrinsic feedback mechanism that stabilizes blood glucose levels.\nFull Description: The physiological pancreas maintains glucose homeostasis by coupling insulin secretion directly to circulating glucose concentration. In contrast, injected insulin acts independently of glucose levels and therefore requires careful external dosing. A glucose-responsive insulin would ideally display minimal receptor activation at low glucose concentrations while maintaining strong activity when glucose rises above the normal physiological range.\n\nFrom a molecular perspective, this behavior can arise if glucose influences the structural or binding state of insulin or of a molecular partner attached to it. Examples include glucose-dependent competitive binding, glucose-sensitive conformational switches, or reversible ligand systems that shield or expose the insulin receptor binding interface depending on glucose concentration. Designing such systems requires understanding how molecular interactions between insulin, glucose, and candidate binding motifs influence receptor accessibility and binding thermodynamics.\n\nThe research task is therefore to model insulin-centered molecular systems in which the presence of glucose changes the effective interaction between insulin and the insulin receptor. Each candidate design can be represented by structural features of the insulin analog, the chemistry of the attached binding motif, and predicted interaction energies with both glucose and the insulin receptor. Machine learning models can then be trained to estimate a conditional activity score that predicts how insulin function changes between low-glucose and high-glucose environments.\n\nThe central objective is to identify molecular configurations whose predicted activity curve resembles physiological insulin feedback: minimal activity under hypoglycemic conditions, moderate activity in normal glycemic ranges, and strong activity under hyperglycemia. Instead of focusing on full clinical drug discovery, the problem emphasizes the identification of structural patterns and interaction features that correlate with glucose-dependent insulin modulation. Such models could serve as computational filters that prioritize candidate molecules for experimental testing.\nProblem Type: Open Question\nDifficulty: Frontier\nDomain: Computational Biology\nOriginator: Marius-Constantin Dinu\nCompute Budget: 1 APU, 128GB, 2 GPUs\nTarget Deadline: 2026-03-14\nTags: type-1-diabetes, glucose-responsive-insulin, protein-engineering, molecular-binding, bioinformatics, insulin-receptor\nCategories: Computational Biology\nExpected Artifacts: Paper, Code, Model, Package\nRelated Links: https://www.nature.com/articles/s41586-024-08042-3?utm_source=chatgpt.com, https://diabetesjournals.org/diabetes/article-abstract/73/9/1377/156832/Recent-Progress-in-Glucose-Responsive-Insulin?redirectedFrom=fulltext&utm_source=chatgpt.com, https://pubs.acs.org/doi/10.1021/acsmaterialsau.4c00138?utm_source=chatgpt.com, https://www.nature.com/articles/s41586-021-03819-2\nDataset Links: None",
+  "root_run_id": "847300d1-9697-4153-9694-f2ccf35bd6c3",
+  "run_id": "91db9a32-aae3-44e1-8814-3f362dee8ced",
+  "session_id": "847300d1-9697-4153-9694-f2ccf35bd6c3",
+  "snapshot_branch": "snapshot/paper-v1",
+  "tags": [
+    "type-1-diabetes",
+    "glucose-responsive-insulin",
+    "protein-engineering",
+    "molecular-binding",
+    "bioinformatics",
+    "insulin-receptor"
+  ],
+  "target_deadline": "2026-03-14",
+  "title": "Glucose-Responsive Insulin Design via Machine Learning and Molecular Binding Modeling",
+  "updated_at": "2026-03-14T19:37:01.030269+00:00",
+  "version": 1
+}
